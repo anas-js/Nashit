@@ -1,0 +1,79 @@
+
+.dark-mode {
+  // color
+  $color_a: #FA7878;
+  $color_b: #ffffff;
+
+  // white color
+  $color_white_a: #0d0d27;
+  $color_white_b: #17173d;
+  $color_white_c: #2c2c4f;
+  $color_white_d: #3b3b69;
+  $color_white_e: #0c0c39;
+
+  $color_white_f: #060610;
+  $color_white_g: #101031;
+  $color_white_h: #0e0e2b;
+
+  // black
+  $color_black_a: #000;
+
+  //red
+  $color_red_a: #f45050;
+
+  // green
+  $color_green_a: #03c988;
+
+  // yellt
+  $color_yellow_a: #ffcd4b;
+
+  // lite $color_a
+  $color_a_lite: rgba(
+    $color: $color_a,
+    $alpha: 0.13,
+  );
+  $color_b_lite: rgba(
+    $color: $color_b,
+    $alpha: 0.13,
+  );
+
+  //dark
+  $color_dark_a : #1B1C52;
+
+  background-color: $color_white_a;
+
+  @import "files/base";
+  @import "files/pages/index";
+  @import "files/pages/profile";
+  @import "files/pages/start";
+  @import "files/pages/registration";
+  @import "files/pages/install";
+  @import "files/pages/update";
+  @import "files/pages/about";
+  @import "files/pages/course/all";
+  @import "files/pages/course/today";
+  @import "files/pages/course/finish";
+  @import "files/pages/board/index";
+  @import "files/layouts/dashboard";
+  @import "files/layouts/page";
+  @import "files/layouts/error";
+
+  @import "files/components/elements/list-items";
+  @import "files/components/elements/selectElement";
+
+  @import "files/components/pageItems/rate.scss";
+
+  @import "files/components/footer-app";
+  @import "files/components/full-loading";
+  @import "files/components/header-app";
+  @import "files/components/msg";
+  @import "files/components/alert";
+
+
+  @import "files/components/nav-user";
+  @import "files/components/note-book";
+  @import "files/components/pop";
+
+  @import "files/components/small-loading";
+}
+

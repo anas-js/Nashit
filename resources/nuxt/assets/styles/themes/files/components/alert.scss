@@ -1,0 +1,22 @@
+.alert {
+  color: $color_b;
+
+  background-color: $color_white_c;
+
+
+  i {
+
+    background-color: rgba($color: $color_b, $alpha: 0.3);
+
+    color: $color_b;
+  }
+
+
+  &.warning {
+    background-color: rgba($color: #ffb84c, $alpha: 0.1);
+    i {
+      background-color: rgba($color: #ffb84c, $alpha: 0.3);
+      color: #ffb84c;
+    }
+  }
+}

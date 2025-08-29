@@ -1,0 +1,56 @@
+.all-page-course {
+  .boxs {
+    padding-left: initial;
+    padding-right: 10px;
+
+    > div {
+      .left {
+        &.box-note {
+          justify-content: right;
+          left: initial;
+          right: 15px;
+
+          p {
+            margin-right: initial;
+            margin-left: 10px;
+          }
+        }
+      }
+
+      // .rigth {
+      //   .box-text {
+      //     margin-right: initial;
+      //     // margin-left: 10px;
+      //    margin: 0 10px;
+      //   }
+      // }
+    }
+  }
+}
+.add-new-les-popup {
+  .box {
+    .items {
+      .box-item {
+        @include input-btn-box(30px);
+      }
+    }
+  }
+}
+
+
+.move-lesson-popup {
+
+  .select {
+    p {
+      i {
+        margin-left: initial;
+        margin-right: -5px;
+      }
+    }
+
+  }
+  .lessons-list {
+    padding-left: 14px;
+    padding-right: 8px;
+  }
+}

@@ -1,0 +1,49 @@
+.header-app {
+  .left {
+    left: initial;
+    right:  0px;
+    margin-left: initial;
+    margin-right: 20px;
+  
+    .small-btn {
+      margin-left: initial;
+      margin-right: 10px;
+    }
+    // transform: translateX(-100%);
+    .buttons {
+      a {
+  
+        &.login {
+          margin-left: initial;
+          margin-right: 15px;
+        }
+  
+      }
+  
+    }
+  
+    // .nav-user {
+    //   left: initial;
+    //   right: 10px;
+    // }
+  }
+  
+  // .buttons {
+  //   float: right;
+  //   a {
+
+  //     &.login {
+  //       margin-left: initial;
+  //       margin-right: 15px;
+  //     }
+
+  //   }
+
+  // }
+
+
+  // .nav-user {
+  //   left: initial;
+  //   right: 10px;
+  // }
+}

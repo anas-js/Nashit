@@ -1,0 +1,30 @@
+.prefs-btns {
+    display: inline-block;
+    > * {
+        display: inline-block;
+    }
+
+    .small-btn {
+        margin-top: 15px;
+        margin-left: 10px;
+        border-radius: 25px;
+        width: 40px;
+
+        i {
+            font-size: 20px;
+        }
+       
+        height: 40px;
+  
+        @extend .btn-square-smal;
+      }
+  
+      .change-lang {
+        .list-items {
+          // position: absolute;
+          // background-color: $color_b;
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.07);
+          z-index: 10;
+        }
+      }
+}

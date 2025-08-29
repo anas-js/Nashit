@@ -1,0 +1,124 @@
+.index-page {
+  .first-sect {
+    .rigth {
+      .arrow {
+        left: initial;
+        right: 37%;
+        content: url('assets/images/index/arrow2.svg');
+      }
+
+      .word {
+        left: initial;
+        right: 8%;
+      }
+    }
+
+    .buttons {
+      .example {
+        margin-left: 8px;
+        margin-right: initial;
+      }
+    }
+
+    .left {
+      .image {
+        .back {
+          left: initial;
+          right: 0;
+        }
+
+        .rocket {
+          left: initial;
+          right: -68px;
+        }
+        .aim {
+          right: 27px;
+          bottom: 40px;
+        }
+      }
+
+      .pattren {
+        left: 68%;
+      }
+    }
+  }
+
+  .scroll-down {
+    // .box {
+    //   &::before {
+    //     left: 50%;
+    //   }
+
+    // }
+  }
+
+  .features {
+    > div {
+      .text {
+        margin-right: initial;
+        margin-left: 10px;
+      }
+
+    }
+    .no-ads {
+      .ads-image-1 {
+        .btn-download {
+          margin-right: initial;
+          margin-left: 40px;
+        }
+      }
+    }
+
+
+    .multi {
+      .image {
+        .box-course {
+            .rate {
+              left: initial;
+              right: 22px;
+            }
+        }
+      }
+    }
+
+    .feedbacks {
+      .image {
+        .box {
+          p {
+            margin-right: initial;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .other-features {
+    .image {
+      .box-feat {
+        padding-left: 13px;
+        padding-right: 28px;
+
+
+        .icon {
+          margin-left: initial;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .register-now {
+    .body {
+      .email-box {
+        direction: ltr;
+      }
+    }
+
+    .at {
+      left: initial;
+      right: -34px;
+    }
+  }
+}

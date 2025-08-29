@@ -1,0 +1,76 @@
+.note-book {
+  .save-changes {
+    left: initial;
+    right: 30px;
+
+    .small-loading {
+      margin-left: initial;
+      margin-right: 5px;
+    }
+  }
+}
+.quilljs {
+  .ql-editor {
+    // direction: ltr;
+    // text-align: left;
+
+    // .ql-direction-rtl {
+    //   direction: rtl;
+    // }
+
+    // .ql-align-right {
+    //   text-align: right;
+    // }
+
+    // li.ql-direction-rtl::before {
+    //   margin-left: 0.3em;
+    //   margin-right: -1.5em;
+    //   text-align: left;
+    // }
+
+    // li:not(.ql-direction-rtl)::before {
+    //   margin-left: -1.5em;
+    //   margin-right: 0.3em;
+    //   text-align: right;
+    // }
+
+    // ol li:not(.ql-direction-rtl),
+    // ul li:not(.ql-direction-rtl) {
+    //   padding-left: 1.5em;
+    //   padding-right: initial;
+    // }
+
+    // ol li.ql-direction-rtl,
+    // ul li.ql-direction-rtl {
+    //   padding-left: initial;
+    //   padding-right: 1.5em;
+    // }
+
+    // @for $i from 1 through 8 {
+    //   .ql-indent-#{$i}:not(.ql-direction-rtl) {
+    //     padding-right: initial;
+    //     padding-left: ($i * 3) + em;
+    //   }
+
+    //   .ql-indent-#{$i}.ql-direction-rtl,
+    //   .ql-indent-#{$i}.ql-direction-rtl.ql-align-right {
+    //     padding-right: ($i * 3) + em;
+    //     padding-left: initial;
+    //   }
+
+    // }
+  }
+
+  .ql-editor.ql-blank::before {
+    left: 15px;
+    direction: ltr;
+    right: initial;
+  }
+
+  .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    left: initial;
+    right: 0;
+  }
+
+
+}

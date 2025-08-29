@@ -1,0 +1,34 @@
+.update-page-global {
+  .last-update {
+    background-color: $color_a;
+    color: $color_white_a;
+  }
+  .date {
+    color: $color_b;
+  }
+
+  .boxs {
+    > div {
+      .content-box {
+        .added {
+          strong {
+            color: $color_a;
+          }
+          ul {
+            li {
+              i {
+                color: $color_green_a;
+              }
+            }
+          }
+        }
+
+        .removed {
+          i {
+            color: $color_red_a !important;
+          }
+        }
+      }
+    }
+  }
+}

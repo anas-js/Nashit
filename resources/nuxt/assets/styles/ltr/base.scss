@@ -1,0 +1,129 @@
+
+// Boxs
+
+
+@mixin input-btn-box($sizeBtn) {
+  text-align: left !important;
+
+
+  button {
+    // transform: translateY(-50%);
+    left: initial !important;
+    right: 15px;
+  }
+
+}
+
+.boxs-lessons {
+  > div {
+    .new-lesson-flag {
+      right: initial;
+      left: -13px;
+
+      i {
+        margin-left: initial;
+        margin-right: 2px;
+      }
+    }
+
+    .late-lesson-flag {
+      @extend .new-lesson-flag;
+    }
+
+    p {
+      margin-right: initial;
+      margin-left: 10px;
+    }
+
+    .note-btn {
+      right: 15px;
+      left: initial;
+    }
+  }
+}
+
+.box-settings {
+  .ctr {
+    .rigth {
+      padding-right: 10px;
+      padding-left: initial;
+    }
+    .left {
+      .btns-action {
+        > * {
+          i.space {
+            margin-left: initial;
+            margin-right: 5px;
+          }
+
+        }
+
+      }
+    }
+  }
+
+
+}
+
+// buttons
+.btn-toggle {
+
+  span {
+    transform: translateX(0%);
+    left: initial;
+    right: 0%;
+  }
+
+  &.active {
+    span {
+      transform: translateX(-100%);
+      right: -100%;
+      left : initial;
+    }
+  }
+}
+
+.main-btn {
+  i {
+    margin-left: initial;
+    margin-right: 5px;
+  }
+}
+
+
+
+.main-btn-lite {
+  padding-left: 10px;
+  padding-right: 21px;
+}
+
+.second-btn-lite {
+  i {
+    margin-left: initial;
+    margin-right: 4px;
+  }
+}
+
+
+.btn-white {
+  > i {
+    margin-left: initial;
+    margin-right: 7px;
+  }
+}
+
+// anime
+@keyframes toLeft {
+  0% {
+    left: initial;
+    right: 110%;
+  }
+  100% {
+    left: initial;
+    right: -25%;
+  }
+}
+
+
+
+

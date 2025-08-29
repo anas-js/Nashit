@@ -1,0 +1,38 @@
+@media (max-width: 575px) {
+  .header-app {
+    .left {
+      margin-left: 10px;
+    }
+  }
+}
+
+
+
+@media (max-width: 465px) {
+  .header-app {
+    .prefs-btns {
+      display: none;
+    }
+
+    .show {
+      .btns {
+        display: block;
+      }
+    }
+
+    // .change-lang.mobile {
+    //   display: block;
+    // }
+
+    .buttons {
+      // a {
+      //   display: none;
+      //   margin-top: 10px;
+      // }
+
+      .btn-show-list-moblie {
+        display: block;
+      }
+    }
+  }
+}

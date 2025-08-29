@@ -1,0 +1,318 @@
+
+POST https://nashit.juzr.app/api/list/update
+# Accept-Encoding: gzip, deflate, br, zstd
+# Accept-Language: ar;q=0.6
+# Connection: keep-alive
+# Content-Length: 4609
+Cookie: juzr_token=2|JYQcV0PnT6B9jqtMRJarryhnDFsR0bMKXRnaBtboc470f299; XSRF-TOKEN=eyJpdiI6IjdVMHBsOHRKTGpRUHVhVjBjS3ZYaUE9PSIsInZhbHVlIjoiZFU1c0dNRVdkamJSU3JKRytlT2s3R2RlMmZlSnpFeTM0TkluOE9BTEdXR29IUFNKWGJEb29xY2s5RkxNK2NVckpJcHpEaGh3aUtjMUZMemZwSFJtR0Vaa0JoWkQwWldLcVFYV0lqZVI4ckNaV01oOGxoekRKUThPQU5Hdks2RU0iLCJtYWMiOiJkYzU0NmMxM2QwYmE0YWQ0MTUwZGQ5YmUxMWU5MWQ2ZGQ4NGZjOTg2YTBmMTIwMWRmODFhOGY2NzBkMTc0MTA4IiwidGFnIjoiIn0%3D; juzr_session=eyJpdiI6IklKdUtqd1NaaURXcjlad2tDOWFjY3c9PSIsInZhbHVlIjoiUHVyZHpDWDFESTlsMFJVb2x3bjZJSEVjR283Y0NLL3JIcHhSd0xMdHJoaWJ5VytnSGRRUUxvUzBDdFBJcDMwZzNxYnRQN01uNWJlUTVuV2pMbjNtRXFTc3laT1p1WlptTHB2T3Z0U1dPdEJISmd3Q29wS0VBbUs1bk05YXBTK1UiLCJtYWMiOiI1NTMzNmYyYzg0MzU1MWNmNDU4ODI2YjFlOGUwYjRlZjhhMDJiMGExNmU4M2E3NWVkNDZlMzYwOGM5ZjEyMTczIiwidGFnIjoiIn0%3D
+# Host: nashit.juzr.app
+Origin: https://nashit.juzr.app:8080
+Referer: https://nashit.juzr.app:8080/
+# Sec-Fetch-Dest: empty
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Site: same-site
+# Sec-GPC: 1
+# User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+accept: application/json
+authorization: Bearer 2|JYQcV0PnT6B9jqtMRJarryhnDFsR0bMKXRnaBtboc470f299
+content-type: application/json
+# sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Brave";v="126"
+# sec-ch-ua-mobile: ?0
+# sec-ch-ua-platform: "Windows"
+x-xsrf-token: eyJpdiI6IjdVMHBsOHRKTGpRUHVhVjBjS3ZYaUE9PSIsInZhbHVlIjoiZFU1c0dNRVdkamJSU3JKRytlT2s3R2RlMmZlSnpFeTM0TkluOE9BTEdXR29IUFNKWGJEb29xY2s5RkxNK2NVckpJcHpEaGh3aUtjMUZMemZwSFJtR0Vaa0JoWkQwWldLcVFYV0lqZVI4ckNaV01oOGxoekRKUThPQU5Hdks2RU0iLCJtYWMiOiJkYzU0NmMxM2QwYmE0YWQ0MTUwZGQ5YmUxMWU5MWQ2ZGQ4NGZjOTg2YTBmMTIwMWRmODFhOGY2NzBkMTc0MTA4IiwidGFnIjoiIn0=
+
+{
+    "lists": [
+        {
+            "id": 1,
+            "name": "ToDo List",
+            "tasks_number": 50,
+            "tasks": [
+                {
+                    "id": 102,
+                    "name": "مهمة 1 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 1,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    },
+                    "process": {
+                        "move": "2024-06-30T21:42:37.336000Z"
+                    }
+                },
+                {
+                    "id": 52,
+                    "name": "مهمة 1 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 1,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 53,
+                    "name": "مهمة 2 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 2,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 54,
+                    "name": "مهمة 3 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 3,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 55,
+                    "name": "مهمة 4 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 4,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 56,
+                    "name": "مهمة 5 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 5,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 57,
+                    "name": "مهمة 6 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 6,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 58,
+                    "name": "مهمة 7 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 7,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 59,
+                    "name": "مهمة 8 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 8,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 60,
+                    "name": "مهمة 9 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 9,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 61,
+                    "name": "مهمة 10 في ToDo List",
+                    "done": 0,
+                    "note": null,
+                    "order": 10,
+                    "list_id": 1,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                }
+            ],
+            "date": {
+                "create": "2024-06-30T21:17:27+03:00",
+                "lastUpdate": "2024-06-30T23:50:22+03:00"
+            },
+            "process": {
+                "reindex": "2024-06-30T21:42:37.336000Z"
+            }
+        },
+        {
+            "id": 2,
+            "name": "TODO",
+            "tasks_number": 50,
+            "tasks": [
+                {
+                    "id": 103,
+                    "name": "مهمة 2 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 2,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 104,
+                    "name": "مهمة 3 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 3,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 105,
+                    "name": "مهمة 4 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 4,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 106,
+                    "name": "مهمة 5 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 5,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 107,
+                    "name": "مهمة 6 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 6,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 108,
+                    "name": "مهمة 7 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 7,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 109,
+                    "name": "مهمة 8 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 8,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 110,
+                    "name": "مهمة 9 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 9,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                },
+                {
+                    "id": 111,
+                    "name": "مهمة 10 في TODO",
+                    "done": 0,
+                    "note": null,
+                    "order": 10,
+                    "list_id": 2,
+                    "date": {
+                        "create": "2024-06-30T23:52:06+03:00",
+                        "lastUpdate": "2024-06-30T23:52:06+03:00",
+                        "done": "2024-07-01T00:42:34+03:00"
+                    }
+                }
+            ],
+            "date": {
+                "create": "2024-06-30T23:52:00+03:00",
+                "lastUpdate": "2024-06-30T23:52:06+03:00"
+            },
+            "process": {
+                "reindex": "2024-06-30T21:42:37.336000Z"
+            }
+        }
+    ]
+}

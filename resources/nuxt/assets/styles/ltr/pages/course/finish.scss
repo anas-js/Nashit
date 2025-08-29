@@ -1,0 +1,21 @@
+.finish-page-course {
+  .finish-box {
+    .stats {
+      > div {
+        .pack {
+          text-align: right;
+        }
+
+        .notice {
+          margin-left: initial;
+          margin-right: 5px;
+        }
+
+        > .notice {
+          right: -13px;
+          left: initial;
+        }
+      }
+    }
+  }
+}

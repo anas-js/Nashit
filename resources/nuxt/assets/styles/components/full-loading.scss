@@ -1,0 +1,42 @@
+.full-loading {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba($color: #000, $alpha: 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  span {
+    font-size: 40px;
+
+    i {
+      display: block;
+    }
+  }
+
+  p {
+    margin-right: 7px;
+    font-size: 28px;
+    color: $color_a;
+  }
+
+  // span {
+  //   display: block;
+  //   width: 30px;
+  //   background-color: $color_a;
+  //   border-radius: 12px;
+  //   animation: loading 0.5s infinite linear;
+  //   height: 30px;
+  // }
+
+  // @keyframes loading {
+  //   100% {
+  //     transform: rotate(365deg);
+  //   }
+  // }
+}

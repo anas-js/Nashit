@@ -1,0 +1,11 @@
+.list-items {
+  background-color: $color_white_c;
+  .list {
+    span {
+      color: $color_b;
+      i {
+        color: $color_a;
+      }
+    }
+  }
+}

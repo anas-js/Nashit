@@ -1,0 +1,57 @@
+@media (max-width: 1111px) {
+  .todos-page-board {
+    .boxs-todos {
+      .todo-list {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (max-width: 945px) {
+  .todos-page-board {
+    .boxs-todos {
+      .todo-list {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 830px) {
+  .todos-page-board {
+    .boxs-todos {
+      .todo-list {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .todos-page-board {
+    .boxs-todos {
+      .todo-list {
+        width: 100%;
+      }
+    }
+  }
+  // .notebook-task-popup {
+  //   .options-task {
+  //    left: 50px;
+  //   }
+  //  }
+}
+
+@media (max-width: 480px) {
+  .todos-page-board {
+    .boxs-todos {
+      .todo-list {
+        width: 100%;
+      }
+    }
+  }
+
+}

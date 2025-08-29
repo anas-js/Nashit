@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "send": "git add * && git commit -m %date% && git push origin main",
+        "host": "php artisan cache:clear && php artisan config:cache && php artisan event:cache && php artisan route:cache && php artisan view:cache && composer dump-autoload"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    }
+}

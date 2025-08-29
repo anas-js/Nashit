@@ -1,0 +1,338 @@
+.page-layout {
+@extend .dashboard-layout;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+
+ > div {
+  > .left {
+    margin-top: 164px;
+
+    > div {
+      h1 {
+        margin-top: -75px;
+      }
+
+      .offline-alert {
+        margin-bottom: 55px;
+      }
+      .content {
+        overflow: inherit;
+      
+
+        &.smallBox {
+          width: 400px;
+        }
+
+        &.mediumBox {
+          width: 500px;
+        }
+
+        &.boardClass {
+          margin-top: -50px;
+          background-color: $color_white_a;
+          .app {
+            margin-top: 0;
+          }
+        }
+
+        > div {
+          margin-top: 0px;
+
+          .app {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+ > .rigth {
+    position: fixed;
+    padding: 20px 30px;
+    ul {
+      margin-top: 10px;
+
+      li {
+        margin-top: 15px;
+
+        .copy {
+          text-decoration: none;
+          color: $color_b;
+          font-size: 18px;
+          position: relative;
+          i {
+            color: $color_a;
+            margin-left: 10px;
+            // font-size: 20px;
+          }
+
+          @extend .remove-btn-style;
+        }
+      }
+    }
+
+    .group-text {
+      margin-top: 40px;
+    }
+    h1 {
+      color: $color_b;
+      font-size: 30px;
+      word-wrap: break-word;
+      word-wrap: anywhere;
+      overflow-wrap: anywhere;
+      // white-space: pre-wrap;
+      // display: none;
+    }
+
+    // .logo {
+    //   display: none;
+    // }
+
+    .elements {
+      overflow: auto;
+      // height: calc(100% - 173px);
+       padding-bottom: 10px;
+      // .list {
+
+
+      // }
+
+      .global-list {
+        position: relative;
+        margin-top: 20px;
+        // &::before {
+        //   content: "";
+        //   position: absolute;
+        //   right: 0;
+        //   top: -15px;
+        //   width: 50px;
+        //   height: 1px;
+        //   background-color: $color_b;
+        // }
+
+        h2 {
+          font-size: 22px;
+          color: $color_b;
+        }
+
+        ul {
+
+
+
+
+          li {
+            margin-top: 10px;
+            a {
+              font-size: 18px;
+
+              i {
+                // margin-left: 2px;
+                // color: $color_b;
+                // display: inline-block;
+                // background-color: $color_b_lite;
+                // border-radius: 25px;
+                // font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  > .bottom {
+
+    height: 76px;
+
+    ul {
+      // display: block;
+      flex-wrap: wrap;
+      // display: block;
+      margin: 0 auto;
+      // text-align: center;
+      li {
+        width:calc(25% - 1.5px);
+        vertical-align: top;
+        display: inline-block;
+
+        // &.heddin-link {
+        //   margin-top: 16px;
+        // }
+
+        // &:nth-of-type(1n+5):not(.global-list li) {
+        //   margin-top: 16px;
+        // }
+
+        &.m-top {
+          margin-top: 16px;
+        }
+        &.close {
+          button {
+            background-color: $color_a_lite;
+            color: $color_a;
+          }
+        }
+      }
+    }
+
+    h3 {
+      margin: 10px;
+      margin-right: 25px;
+      display: none;
+      font-size: 25px;
+      word-wrap: break-word;
+      word-wrap: anywhere;
+      overflow-wrap: anywhere;
+      // white-space: pre-wrap;
+      // overflow-wrap: break-word;
+
+      color: $color_b;
+    }
+    .list {
+      > ul {
+        li:nth-child(n+4):not(.btn-more) {
+          margin-top: 10px;
+        }
+        li:nth-child(n+4):not(.btn-more) {
+          order: 5;
+        }
+
+      }
+      // height: calc(100% - 60px);
+
+
+      &.small {
+        height:  calc(100% - 48px);
+        overflow: auto;
+        padding-bottom: 40px;
+
+      }
+
+
+      .btn-more {
+        order: 4;
+      }
+    }
+
+    .global-list {
+
+      h4 {
+        padding: 0 40px;
+        margin-top: 15px;
+        color: $color_b;
+        margin-top: 26px;
+        font-size: 20px;
+
+      }
+      ul {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+        // border-top: 1px dashed $color_b;
+        // padding-top: 10px;
+
+        li {
+          vertical-align: top;
+          margin-top: 10px;
+          i {
+            color: $color_b;
+          }
+        }
+        &.noPath {
+          margin-top: 0;
+
+          li {
+            width: calc(50% - 1.5px);
+
+            &:not(:nth-child(n+3)) {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+ }
+
+
+
+}
+
+.copy-Course-popup {
+  .done {
+    // >div {
+    //   width: 65%;
+    // }
+
+    .data {
+      margin-top: 10px;
+      text-align: right;
+      .done-day {
+        input {
+          background-color: $color_white_g !important;
+        }
+        @extend .label-input-white;
+
+      }
+    }
+
+    .type-doing {
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @extend .label-input;
+    }
+
+    .weekend {
+      margin-top: 10px;
+      @extend .label-input;
+
+      .days {
+        display: flex;
+        overflow-x: auto;
+        padding: 10px 0;
+       
+        @extend .scroll-bar;
+         > div {
+          width: 100%;
+          
+
+          span {
+            background-color: $color_white_g;
+            // background-color: $color_white_a;
+            border-radius: 25px;
+            margin: 0 5px;
+            display: block;
+            width: fit-content;
+            padding: 2px 10px;
+            cursor: pointer;
+            transition:0.3s cubic-bezier(0.22, 1.07, 0.48, 1.21);;
+            user-select: none;
+
+            &.active {
+              background-color: $color_a_lite;
+              font-weight: bold;
+              color: $color_a;
+            }
+          }
+        }
+      }
+    }
+
+    .result {
+      color: $color_b;
+      font-weight: bold;
+      font-size: 20px;
+      span {
+        color: $color_a;
+        font-size: 22px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

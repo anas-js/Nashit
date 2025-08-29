@@ -1,0 +1,158 @@
+.start-page {
+  .main {
+
+    h1 {
+      color: $color_b;
+    }
+
+    .content {
+      background-color: $color_white_c;
+
+
+      >.elements {
+
+
+        .type-element {
+
+          &.course {
+            .name-course {
+              input {
+                // @extend .input-main;
+              }
+            }
+
+            .lessons {
+
+              .items {
+                // @extend .scroll-bar;
+
+                .box-item {
+                  @include input-btn-box(30px);
+                  &.error {
+                    color: $color_red_a;
+                    border: 2px solid $color_red_a!important;
+                  }
+
+                }
+              }
+
+
+              .add-new-lessons {
+                background-color: $color_a;
+                color: $color_white_a;
+                // @extend .remove-btn-style;
+              }
+
+            }
+
+            .done {
+              .data {
+                .done-day {
+                  // @extend .label-input-white;
+
+                }
+              }
+
+              .weekend {
+                // @extend .label-input;
+
+                .days {
+                  // @extend .scroll-bar;
+
+                   > div {
+
+
+                    span {
+                      background-color: $color_white_a;
+                      color: $color_b;
+                      &.active {
+                        background-color: $color_a_lite;
+                        color: $color_a;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .result {
+                color: $color_b;
+                span {
+                  color: $color_a;
+                }
+              }
+            }
+
+            .summary {
+              p {
+                color: $color_b;
+                span:not(.if) {
+                  color: $color_a;
+                }
+              }
+            }
+
+          }
+          &.board {
+            .name-board {
+              input {
+
+                // @extend .input-main;
+
+
+              }
+            }
+          }
+        }
+
+        h2 {
+          color: $color_b;
+        }
+
+        .choose-task {
+
+          .boxs {
+
+            > div {
+              background-color: $color_white_a;
+
+              p {
+                color: $color_b;
+              }
+
+              &.active {
+                box-shadow: 0px 17px 20px 7px rgba($color: $color_a, $alpha: 0.2);
+              }
+            }
+          }
+        }
+      }
+
+      .bar-steps {
+        background-color: $color_a;
+      }
+
+
+      .btn-next {
+        // @extend .main-btn;
+        background-color: rgba($color: $color_a, $alpha: 0.1);
+        color: $color_a;
+
+      }
+
+      .btn_back {
+        // @extend .remove-btn-style;
+        // @extend .second-btn-lite;
+
+      }
+    }
+  }
+
+}
+
+.add-new-les-popup {
+  .inputs {
+    > div {
+      // @extend .label-input;
+    }
+  }
+}

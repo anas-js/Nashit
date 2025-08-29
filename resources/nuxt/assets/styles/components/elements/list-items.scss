@@ -1,0 +1,39 @@
+.list-items {
+  background-color: $color_white_c;
+  margin-top: 10px;
+  padding: 5px 14px;
+  border-radius: 12px;
+
+  &.hiddin {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &.absolute {
+    position: absolute;
+  }
+  
+  .list {
+    span {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: $color_b;
+      vertical-align: middle;
+      margin-top: 7px;
+      i {
+        color: $color_a;
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+    }
+
+    .small-loading {
+      // margin: 0;
+      margin: 5px auto;
+      i {
+        margin: 0;
+      }
+    }
+  }
+}

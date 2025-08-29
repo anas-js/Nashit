@@ -1,0 +1,79 @@
+@media (max-width:730px) {
+    .note-popup {
+      .box {
+        width: 100%;
+        padding: 40px 20px;
+      }
+    }
+
+
+
+}
+
+@media (max-width:445px) {
+
+  .note-popup {
+    align-items: start !important;
+    .box {
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0;
+      border-radius: 0;
+      .btn-close {
+        display: none;
+      }
+
+      .quilljs  #quill-container {
+        max-height: calc(100vh - 250px);
+      }
+
+      .ql-editor {
+        min-height: calc(100vh - 250px);
+      }
+
+      .ql-toolbar.ql-snow {
+        height: 140px;
+        overflow: auto;
+
+      }
+    }
+}
+
+.today-page-course {
+   .todays-lessons {
+    .done-all {
+   .btn-addNewLes {
+     margin-top: 15px
+    }
+      .box-top {
+        p {
+          display: block;
+          text-align: center;
+          margin-top: -10px;
+        }
+
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+
+        &::before {
+    // width: 83%;
+    height: 60%;
+    left: 50%;
+    width: 95%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+
+        }
+      }
+    }
+
+    .boxs {
+      padding: 0 5px;
+      padding-top: 15px;
+    }
+   }
+}
+
+}

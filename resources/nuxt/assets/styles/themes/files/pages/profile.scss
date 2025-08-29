@@ -1,0 +1,163 @@
+.profile-page {
+  .background {
+
+    background-color: $color_white_c;
+  }
+  .box-profile {
+    .box-info {
+      background-color: $color_white_c;
+
+
+
+      .image {
+        img {
+          background-color: $color_a;
+
+        }
+      }
+
+      .text {
+
+
+        h1 {
+          color: $color_a;
+        }
+
+        .username {
+          background-color: $color_a_lite;
+          color: $color_a;
+        }
+
+        .description {
+          color: $color_b;
+
+        }
+      }
+    }
+
+    .box {
+      background-color: $color_white_c;
+
+
+    >  h2 {
+        color: $color_b;
+
+      }
+
+    }
+
+    .box-courses {
+
+
+      .course {
+
+        background-color: $color_white_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+
+        .background {
+          background-color: $color_a;
+
+
+
+        }
+
+        .text {
+
+
+
+          .name,
+          .date {
+            color: $color_b;
+          }
+
+          .day-left {
+            color: $color_a;
+
+          }
+
+          .rate {
+            color: $color_a;
+
+            border: 1px solid $color_a;
+
+          }
+        }
+      }
+    }
+
+    .box-boards {
+      .board {
+
+        background-color: $color_white_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .image {
+
+          background-color: $color_a;
+
+
+
+
+          span {
+
+            background-color: $color_white_a;
+            color: $color_b;
+
+          }
+        }
+
+        .name,
+        .date {
+          color: $color_b;
+        }
+        .text {
+
+
+          h2 {
+            color: $color_b;
+          }
+
+          ul {
+
+
+            li {
+              color: $color_b;
+
+
+              i {
+
+                background-color: rgba($color: $color_a, $alpha: 0.3);
+
+                color: $color_a;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .no-contnet {
+
+      > div {
+
+        h3 {
+          color: $color_a;
+
+        }
+
+
+
+        p {
+          color: $color_b;
+        }
+
+
+      }
+    }
+
+
+  }
+}

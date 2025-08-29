@@ -1,0 +1,54 @@
+.profile-page {
+  .box-profile {
+    .box-courses {
+      .course {
+        .background {
+          .sharing-flag {
+            left: initial;
+            right: 20px;
+          }
+        }
+        .text {
+          .rate {
+            right: 22px;
+            left: initial;
+          }
+        }
+      }
+    }
+
+    .box-boards {
+      .board {
+        margin-left:initial;
+        margin-right: 10px;
+
+        .image {
+          span {
+            left: initial;
+            right:  10px;
+          }
+        }
+
+        .text {
+
+
+          ul {
+            li {
+              i {
+                margin-left:initial;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .load-more {
+      i {
+        margin-left: initial;
+        margin-right: 5px;
+      }
+    }
+  }
+}

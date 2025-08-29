@@ -1,0 +1,150 @@
+.rate-item-PageItems {
+  .elements {
+    .box-rate {
+      background-color: $color_white_a;
+
+      > svg {
+
+        fill: $color_white_c;
+
+      }
+
+      p {
+        color: $color_green_a;
+        text-shadow: 3px 0px 0  $color_b,-3px 0px 0  $color_b,0px 3px 0  $color_b,0px -3px 0  $color_b;
+      }
+
+      .variable-ratio {
+
+
+
+
+        span {
+
+          color: $color_green_a;
+
+
+          text-shadow: 3px 0px 0  $color_b,-3px 0px 0  $color_b,0px 3px 0  $color_b,0px -3px 0  $color_b;
+
+        }
+      }
+
+      .back {
+
+        .fill {
+
+          background-color: $color_green_a;
+
+        }
+      }
+    }
+
+    .box-day {
+
+
+      .text {
+
+        p {
+
+          color: $color_white_a;
+
+
+          &.shadow {
+            text-shadow: 3px 0px 0  $color_b,-3px 0px 0  $color_b,0px 3px 0  $color_b,0px -3px 0  $color_b;
+
+          }
+        }
+
+        span {
+
+          color: $color_b;
+
+        }
+      }
+      .back {
+
+        .fill {
+          background-color: $color_a;
+
+        }
+      }
+    }
+
+    .eval-text {
+      background-color: $color_white_a;
+
+      > div {
+
+        .icon {
+
+          color: $color_white_a;
+
+
+        }
+
+
+      }
+
+      // .level-1 {
+      //   .icon {
+      //     background-color: $color_green_a;
+      //   }
+
+      //   p {
+      //     color: $color_green_a;
+      //   }
+      // }
+
+      // .level-2 {
+      //   .icon {
+      //     background-color: #ffb84c;
+      //   }
+
+      //   p {
+      //     color: #ffb84c;
+      //   }
+      // }
+
+      // .level-3 {
+      //   .icon {
+      //     background-color: #ff774c;
+      //   }
+
+      //   p {
+      //     color: #ff774c;
+      //   }
+      // }
+
+      // .level-4 {
+      //   .icon {
+      //     background-color: #c90303;
+      //   }
+
+      //   p {
+      //     color: #c90303;
+      //   }
+      // }
+
+      // .level-5 {
+      //   .icon {
+      //     background-color: #850000;
+      //   }
+
+      //   p {
+      //     color: #850000;
+      //   }
+      // }
+
+      .level-6 {
+        .icon {
+          background-color: #fff;
+        }
+
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,50 @@
+.pop-up {
+
+
+  .box {
+
+    .title {
+
+      .close {
+        left: initial;
+        right: 0;
+      }
+    }
+
+    .btns {
+      float: right;
+
+     // TODO : Chick THIs
+      .btn-close {
+        padding-right: 0px;
+        padding-left: initial;
+      }
+    }
+  }
+
+  &.list {
+    .options-pop {
+      left: initial;
+      right: 73px;
+      .list {
+        left: initial;
+        right: 0;
+
+        ul {
+          li {
+            button {
+              i {
+                margin-left: initial;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+      .save-changes {
+    left: initial !important;
+    right:  59px !important;
+  }
+  }
+}

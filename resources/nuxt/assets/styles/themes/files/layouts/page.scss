@@ -1,0 +1,157 @@
+.page-layout {
+
+ > div {
+  > .left {
+    > div {
+      .content {
+        &.boardClass {
+          background-color: $color_white_a;
+        }
+      }
+    }
+  }
+ > .rigth {
+    ul {
+
+
+      li {
+
+
+        .copy {
+
+          color: $color_b;
+
+          i {
+            color: $color_a;
+
+          }
+
+
+        }
+      }
+    }
+
+    h1 {
+      color: $color_b;
+
+
+    }
+
+
+
+    .elements {
+
+
+
+
+
+      .global-list {
+
+        h2 {
+
+          color: $color_b;
+        }
+
+        ul {
+
+
+
+        }
+      }
+    }
+
+  }
+
+  > .bottom {
+
+
+
+    ul {
+      li {
+        &.close {
+          button {
+            background-color: $color_a_lite;
+            color: $color_a;
+          }
+        }
+      }
+    }
+
+    h3 {
+      color: $color_b;
+    }
+
+
+    .global-list {
+
+      h4 {
+        color: $color_b;
+      }
+      ul {
+
+        li {
+
+          i {
+            color: $color_b;
+          }
+        }
+      }
+    }
+  }
+ }
+
+
+
+}
+
+.copy-Course-popup {
+  .done {
+
+
+    .data {
+
+      .done-day {
+        input {
+          background-color: $color_white_g !important;
+        }
+      
+
+      }
+    }
+
+
+
+    .weekend {
+
+
+      .days {
+
+   
+         > div {
+        
+          
+
+          span {
+            background-color: $color_white_g;
+
+
+            &.active {
+              background-color: $color_a_lite;
+           
+              color: $color_a;
+            }
+          }
+        }
+      }
+    }
+
+    .result {
+      color: $color_b;
+
+      span {
+        color: $color_a;
+
+      }
+    }
+  }
+}

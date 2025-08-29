@@ -1,0 +1,12 @@
+.today-page-course {
+  .todays-lessons {
+    .done-all {
+      .box-top {
+        &::before {
+          right: 35px;
+          left: initial;
+        }
+      }
+    }
+  }
+}

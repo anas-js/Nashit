@@ -1,0 +1,13 @@
+.settings-page-course {
+  .boxs {
+    > div {
+      @extend .box-settings;
+    }
+
+    .change-name {
+      word-wrap: break-word;
+      word-wrap: anywhere;
+      overflow-wrap: anywhere;
+    }
+  }
+}

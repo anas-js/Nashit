@@ -1,0 +1,132 @@
+.msg {
+  position: fixed;
+  width:250px;
+  z-index: 9999;
+  right: 20px;
+  top: 15vh;
+  // user-select: none;
+  // overflow: hidden;
+  // padding: 20px 50px;
+  box-sizing: content-box;
+  // pointer-events: none;
+
+
+
+
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   width: 82%;
+  //   height: 50px;
+  //   background-image: linear-gradient(0deg,#fff,transparent);
+  // }
+  // @keyframes showEle {
+  //   100% {
+  //     opacity: 1;
+  //     visibility: visible;
+  //   }
+  // }
+  .box {
+    background-color: $color_white_a;
+    width: 100%;
+    box-shadow: 0 0 30px rgba($color: $color_black_a, $alpha:0.07);
+    border-radius:15px;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    opacity: 0;
+    word-wrap: break-word;
+    word-wrap: anywhere;
+    overflow-wrap: anywhere;
+    // animation: showEle 1s forwards;
+
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    p {
+      color: $color_b;
+      width: calc(100% - 35px);
+    }
+
+    i {
+      margin-left: 10px;
+      // font-size: 20px;
+      color: $color_a;
+    }
+
+    &:not(:first-of-type) {
+      margin-top: 15px;
+    }
+
+    &.error {
+      border: 1px solid $color_red_a;
+      i {
+        color: $color_red_a;
+      }
+    }
+
+    &.ok {
+      border: 1px solid $color_green_a;
+      i {
+        color: $color_green_a;
+      }
+    }
+
+    &.sure {
+      border: 1px solid $color_yellow_a;
+      i {
+        color: $color_yellow_a;
+      }
+    }
+
+    &.disabled {
+      border: 1px solid $color_white_e;
+       * {
+        color: $color_white_e !important;
+      }
+
+      .true,.fasle {
+       background-color: rgba($color: $color_white_e, $alpha: 0.5) !important;
+       border: 1px solid $color_white_e;
+      }
+    }
+
+
+    .buttons {
+      margin-top: 10px;
+      display: block;
+      height: 35px;
+      > div {
+        // float: left;
+        position: absolute;
+    left: 10px;
+        button {
+          padding: 4px 10px !important;
+
+        }
+        .true {
+          @extend .main-btn-lite;
+          i {
+            color: $color_a;
+          }
+
+        }
+
+        .false {
+          @extend .second-btn-lite;
+          i {
+            color: $color_b;
+          }
+        }
+      }
+
+
+
+    }
+  }
+}

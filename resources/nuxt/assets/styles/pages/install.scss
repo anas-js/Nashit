@@ -1,0 +1,59 @@
+.install-page-global {
+  .boxs {
+     .box {
+      width: 100%;
+      background-color: $color_white_a;
+      padding: 18px 15px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      position: relative;
+      overflow: hidden;
+      // height: 63px;
+
+      .header {
+        .title {
+          color: $color_b;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .open-box-btn {
+          @extend .remove-btn-style;
+          position: absolute;
+          left: 15px;
+          top: 17px;
+          font-size: 20px;
+          color: $color_a;
+        }
+
+        // i {
+
+        // }
+      }
+      .content-box {
+        text-align: justify;
+        margin-top: 25px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        // display: none;
+
+
+        color: $color_b;
+
+        img {
+          width: 250px;
+          margin: 5px 0;
+        }
+
+        i.icon {
+          font-size: 20px;
+          background-color: $color_a_lite;
+          color: $color_a;
+          border-radius: 5px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}

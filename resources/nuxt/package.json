@@ -1,0 +1,44 @@
+{
+  "name": "nashitfr",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "fulldev": "npm run juzr && nuxt dev",
+    "dev": "nuxt dev",
+    "juzr": "start cmd /k nuxt dev C:\\Users\\goank\\Desktop\\Web\\nuxt\\3\\juzr",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "send": "git add * && git commit -m %date% && git push origin main",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.3.10",
+    "@pinia/nuxt": "^0.5.1",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "bootstrap": "^5.3.3",
+    "cropperjs": "^1.6.2",
+    "highlight.js": "^11.9.0",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.1.7",
+    "quill": "^2.0.1",
+    "remixicon": "^4.2.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@hypernym/nuxt-anime": "^2.1.1",
+    "@nuxt/webpack-builder": "^3.11.2",
+    "@nuxtjs/i18n": "^8.3.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-cookie": "^3.0.6",
+    "@vite-pwa/assets-generator": "^0.2.4",
+    "nuxt": "^3.13.2",
+    "sass": "^1.75.0",
+    "terser": "^5.31.0"
+  }
+}

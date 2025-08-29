@@ -1,0 +1,28 @@
+.install-page-global {
+  .boxs {
+    .box {
+      background-color: $color_white_a;
+
+      .header {
+        .title {
+          color: $color_b;
+        }
+        .open-box-btn {
+          color: $color_a;
+        }
+
+        // i {
+
+        // }
+      }
+      .content-box {
+        color: $color_b;
+
+        i.icon {
+          background-color: $color_a_lite;
+          color: $color_a;
+        }
+      }
+    }
+  }
+}

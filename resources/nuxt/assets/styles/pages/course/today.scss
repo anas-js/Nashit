@@ -1,0 +1,112 @@
+// .content {
+//   width: 400px;
+// }
+.today-page-course {
+  .full-loading {
+    position: absolute;
+  }
+
+  .todays-lessons {
+    margin-top: 20px;
+
+    .btn-addNewLes {
+      @extend .btn-white;
+      margin: 15px auto;
+      margin-top: -10px;
+      position: relative;
+      overflow: hidden;
+      .full-loading {
+        background-color: #fff;
+        backdrop-filter: initial;
+        i {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .boxs {
+      @extend .boxs-lessons;
+      p {
+        width: calc(100% - 85px);
+        // white-space: nowrap;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+        word-wrap: break-word;
+        word-wrap: anywhere;
+        overflow-wrap: anywhere;
+      }
+
+      .note-btn {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .done-all {
+      .box-top {
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          width: 83%;
+          height: 50%;
+          left: 35px;
+          border-radius: 25px;
+          background-color: $color_a_lite;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: -1;
+        }
+        img {
+          width: 100px;
+          vertical-align: middle;
+        }
+
+        p {
+          color: $color_a;
+          display: inline-block;
+          font-size: 25px;
+          font-weight: bold;
+          position: relative;
+          top: 3px;
+        }
+      }
+    }
+
+    .no-lessons {
+      display: inline-block;
+      padding: 60px 0;
+
+      img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .box-text {
+        text-align: center;
+        color: $color_b;
+
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          margin-top: 5px;
+
+          .btn-addNewLes {
+            display: inline-block;
+            font-size: 15px;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.note-popup {
+  .box {
+    width: 80%;
+    max-width: none !important;
+  }
+}

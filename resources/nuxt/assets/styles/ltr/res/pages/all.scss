@@ -1,0 +1,13 @@
+@media (max-width: 530px) {
+  .all-page-course {
+    .boxs {
+      > div:not(.no-note) {
+        .left {
+          &.box-note {
+            justify-content: right;
+          }
+        }
+      }
+    }
+  }
+}

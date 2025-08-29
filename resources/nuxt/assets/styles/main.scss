@@ -1,0 +1,205 @@
+@import "base";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  // font-family: 'Rubik';
+  // font-family: 'Cairo', sans-serif;
+  // font-family: 'Handjet', cursive;
+  // font-family: 'Amiri', serif;
+  // font-family: 'Vibes', cursive;
+  // font-family: 'Mirza', cursive;
+}
+
+*:not(.ql-font-serif,.ql-font-serif *,.ql-font-monospace * , .ql-font-monospace) {
+  font-family:  'IBM Plex Sans Arabic','JetBrains Mono';
+}
+
+pre {
+  font-family: 'JetBrains Mono';
+}
+body {
+  direction: rtl;
+  // overflow-x: hidden;
+}
+#__layout {
+  overflow-x: hidden;
+}
+#__nuxt {
+  overflow: hidden;
+  > div {
+    overflow: hidden;
+  }
+}
+
+.default-layout {
+  overflow: hidden;
+}
+
+
+.hiddin,.ai {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.v-hiddin {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+
+
+
+.hiddin-none {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visible-block {
+  display: block;
+  visibility: visible;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.d-block {
+  display: block !important
+}
+
+.dir-rtl {
+  direction: rtl;
+  display: inline-block;
+}
+
+
+
+.layout-enter-active ,.page-trans-enter-active{
+  opacity: 1;
+  // transform: translateX(0px);
+  transition:0.3s;
+  filter: blur(0px);
+  padding: 1px;
+};
+
+.layout-enter-from ,.page-trans-enter-from {
+  opacity: 0;
+  // transform: translateX(-250px);
+  transition: 0.3s;
+  filter: blur(15px);
+}
+
+.layout-leave-active,.page-trans-leave-active {
+    opacity: 0;
+    // transform: translateX(250px);
+    filter: blur(15px);
+    transition: 0.3s;
+ }
+
+//  position: absolute;
+//  width: 100%;
+//  height: 100%;
+
+
+
+
+.nuxt-loading-indicator {
+  background-color: $color_a;
+}
+
+
+
+::placeholder {
+  color: rgba($color: $color_b, $alpha: 0.26)
+}
+
+
+
+// pages
+@import "pages/index";
+@import "pages/dashboard.scss";
+@import "pages/start";
+@import "pages/profile";
+@import "pages/read";
+@import "pages/install";
+@import "pages/update";
+@import "pages/about";
+@import "pages/registration";
+@import "pages/dashboard/active.scss";
+
+// pages/course
+@import "pages/course/stats";
+@import "pages/course/today";
+@import "pages/course/all";
+@import "pages/course/settings";
+@import "pages/course/finish";
+
+
+// pages/board
+@import "pages/board/index";
+
+// components
+@import "components/header-app";
+@import "components/footer-app";
+@import "components/elements/list-items";
+@import "components/elements/selectElement";
+@import "components/nav-user";
+@import "components/full-loading";
+@import "components/small-loading";
+@import "components/pop";
+@import "components/msg";
+@import "components/note-book";
+@import "components/alert";
+@import "components/prefs-btns";
+// components/pageItems
+@import "components/pageItems/rate";
+
+// components/typeStart/comp
+@import "components/typeStart/comp/image";
+
+
+
+// layouts
+@import "layouts/dashboard";
+@import "layouts/page";
+@import "layouts/error";
+// lang
+@import "lang/en";
+@import "lang/ar";
+// responsive / pages
+@import "res/pages/index";
+@import "res/pages/start";
+@import "res/pages/today";
+@import "res/pages/all";
+@import "res/pages/finish";
+@import "res/pages/profile";
+@import "res/pages/install";
+@import "res/pages/about";
+@import "res/pages/registration";
+
+@import "res/pages/board/index";
+// responsive / components
+@import "res/components/header-app";
+@import "res/components/pop";
+@import "res/components/msg";
+// responsive / components/pageItems
+@import "res/components/pageItems/rate";
+
+
+// responsive  / layouts
+@import "res/layouts/dashboard";
+@import "res/layouts/page";
+@import "res/layouts/error";
+// LTR
+@import "ltr/index";
+
+// responsive / lang
+@import "res/lang/en";
+
+@import "themes/dark";

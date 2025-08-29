@@ -1,0 +1,7 @@
+.read-page-global {
+  .boxs {
+    > div {
+      @extend .box-settings;
+    }
+  }
+}

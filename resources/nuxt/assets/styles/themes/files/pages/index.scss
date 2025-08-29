@@ -1,0 +1,359 @@
+.index-page {
+  .first-sect {
+
+    .rigth {
+      .title {
+        h1 {
+          color: $color_b;
+        }
+
+        .word {
+          color: $color_a;
+        }
+      }
+
+      p {
+        color: $color_b;
+      }
+
+    }
+
+    .left {
+
+      .image {
+          .back {
+            background-color: $color_a ;
+          }
+        }
+    }
+  }
+
+  .scroll-down {
+    .box {
+      background-color: $color_a;
+
+
+      &::before {
+        background-color: $color_a;
+      }
+
+
+    }
+
+    .line-doted {
+
+      span {
+
+        background-color: $color_a;
+      }
+    }
+
+  }
+  .features {
+
+   > div {
+
+    .icon {
+
+      background-color: $color_a;
+
+      color: $color_white_a;
+
+
+      &.black {
+        background-color: $color_b;
+      }
+
+    }
+
+    .text {
+
+
+      h1 {
+
+
+        &.red {
+          color: $color_a;
+        }
+
+        &.black {
+          color: $color_b;
+        }
+      }
+
+      p {
+        color: $color_b;
+      }
+    }
+
+    .image {
+
+      .back {
+        background-color: #FA7878;
+      }
+
+
+    }
+    }
+
+
+    .no-ads {
+      .ads-image-1 {
+
+        background-color:  $color_dark_a;
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.04);
+
+        .app-img {
+          background-color: $color_white_d;
+        }
+
+        .text-app {
+          .app-title {
+            background-color: $color_white_d;
+          }
+
+          .app-commint {
+
+            span {
+
+              background-color: $color_white_d;
+            }
+          }
+        }
+
+        .btn-download {
+
+          background-color: $color_white_d;
+
+
+
+
+          i {
+
+            color: $color_white_e;
+          }
+        }
+
+        .blur-layer {
+
+
+          i {
+
+            color: $color_red_a;
+
+          }
+        }
+      }
+
+      .ads-image-2 {
+
+        background-color:  $color_dark_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.04);
+
+
+        .video {
+
+          background-color: $color_white_d;
+
+
+          i {
+
+            color: $color_white_e;
+
+          }
+        }
+
+        .blur-layer {
+
+          i {
+
+            color: $color_red_a;
+
+          }
+        }
+      }
+
+    }
+
+
+
+    .feedbacks {
+
+
+
+      .image {
+
+
+
+
+        .box {
+
+          background-color: $color_dark_a;
+
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.04);
+
+
+          .mark {
+
+            color: $color_white_a;
+            background-color: $color_black_a;
+
+
+          }
+
+          &.excellent {
+            color: #03C988;
+           .mark {
+            background-color: #03C988;
+           }
+          }
+
+          &.very-good {
+            color: #FFB84C;
+           .mark {
+            background-color: #FFB84C;
+           }
+          }
+
+          &.good {
+            color: #FF774C;
+           .mark {
+            background-color: #FF774C;
+           }
+          }
+
+          &.bad{
+            color: #C90303;
+
+           .mark {
+            background-color: #C90303;
+           }
+          }
+
+          &.vary-bad {
+            color: #850000;
+
+
+           .mark {
+            background-color: #850000;
+           }
+          }
+        }
+      }
+    }
+
+
+    .multi {
+      .image {
+
+
+        .box-course {
+
+          background-color: $color_dark_a;
+
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.04);
+
+
+          .background {
+            background-color: $color_a;
+
+          }
+
+          .text {
+
+
+
+            .name,.date {
+              color: $color_b;
+            }
+
+            .day-left {
+              color: $color_a;
+
+            }
+
+            .rate {
+              color:  $color_a;
+
+              border: 1px solid $color_a;
+
+            }
+          }
+
+        }
+      }
+    }
+
+  }
+  .other-features {
+
+
+    .title {
+
+      color: $color_b;
+
+        &::before {
+
+          background-color:$color_a;
+
+        }
+
+    }
+
+    .image {
+
+
+      .box-feat {
+
+        background-color: $color_dark_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha:0.04);
+
+
+        .icon {
+
+          background-color: $color_b;
+
+          color: $color_white_a;
+
+
+
+        }
+
+        p {
+
+          color: $color_b;
+        }
+
+
+
+      }
+    }
+  }
+
+  .register-now {
+
+    .body {
+      background-color: $color_white_b;
+
+
+      .title {
+
+        color: $color_b;
+      }
+
+      .des {
+        color: $color_b;
+      }
+
+      .email-box {
+        @extend .label-div__inputText-button;
+        label {
+          color: $color_b;
+        }
+      }
+    }
+
+  }
+}

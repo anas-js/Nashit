@@ -1,0 +1,11 @@
+.small-loading {
+  font-size: 20px;
+  color: $color_a;
+  width: fit-content;
+  animation: rotate360 1s infinite;
+  // new Addeding
+  display: inline-block;
+  i {
+    display: block;
+  }
+}

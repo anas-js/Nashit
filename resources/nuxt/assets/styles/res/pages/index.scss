@@ -1,0 +1,285 @@
+@media (max-width: 1199px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .pattren {
+          left: 16%;
+        }
+      }
+
+      .rigth {
+        .title {
+          .word {
+            bottom: -30%;
+          }
+          .arrow {
+            width: 123px;
+            left: 54%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .image {
+          margin: 0 auto;
+          margin-top: 120px;
+
+          .pattren {
+            left: 50%;
+          }
+        }
+      }
+
+      .rigth {
+        .title {
+          .word {
+            bottom: -9%;
+            // left: 43%;
+            left: 14%;
+          }
+          .arrow {
+            width: auto;
+            left: 35%;
+            // left: 63%;
+          }
+        }
+      }
+    }
+
+    .features {
+      .row {
+        > .order {
+          order: 1;
+        }
+      }
+      > div {
+        .image {
+          margin: 0 auto;
+          margin-top: 170px;
+        }
+      }
+    }
+
+    .other-features {
+      margin-top: 288px;
+    }
+    .register-now .at {
+      width: 338px;
+      // top: -120px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .index-page {
+    .first-sect {
+
+
+      .rigth {
+        .title {
+          .word {
+            left: 0%;
+          }
+          .arrow {
+            left: 30%;
+          }
+        }
+      }
+
+    }
+    .features {
+      > div {
+        .text {
+          width: 100%;
+        }
+      }
+    }
+    .other-features {
+      .image {
+        .start-medal {
+          width: 270px;
+        }
+        .box-feat {
+          position: relative;
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          right: 0 !important;
+          margin-top: 11px;
+
+    text-align: right;
+    padding-right: 27px;
+
+        }
+      }
+    }
+    .register-now .at {
+      width: 248px;
+      top: -394px;
+      left: -131px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .index-page {
+    .first-sect {
+
+
+      .rigth {
+        .title {
+          .word {
+            display: none;
+          }
+          .arrow {
+            display: none;
+          }
+        }
+        p {
+          margin-top: 16px;
+        }
+
+        }
+
+        .left {
+          .image {
+            scale: 0.8;
+          }
+        }
+
+        p {
+          margin-top: 22px;
+        }
+      }
+
+
+    .features {
+      > div {
+        .image {
+          scale: 0.7;
+        }
+      }
+
+      .star-img {
+        top: 51%;
+    left: 20%;
+      }
+
+      .done-img {
+        top: 72%;
+        left: 100%;
+      }
+    }
+    .other-features {
+    //   .image {
+    //     .start-medal {
+    //       width: 270px;
+    //     }
+    //     .box-feat {
+    //       position: relative;
+    //       left: 0 !important;
+    //       top: 0 !important;
+    //       width: 290px !important;
+    //       margin-top: 11px;
+
+    // text-align: right;
+    // padding-right: 27px;
+
+    //     }
+    //   }
+    }
+    .register-now {
+      .at {
+        // width: 248px;
+        // top: -394px;
+        top: -2px;
+        left: -36px;
+      }
+
+      .body {
+        margin: 10px;
+        margin-top: 193px;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .index-page {
+    .first-sect {
+
+
+      // .rigth {
+      //   .title {
+      //     .word {
+      //       display: none;
+      //     }
+      //     .arrow {
+      //       display: none;
+      //     }
+      //   }
+
+
+      //   }
+
+         .left {
+
+          
+          .image {
+            width: 167px;
+
+            .rocket {
+              left: -200px;
+            }
+
+            .pattren {
+              left: 111%;
+          }
+
+          .cofe {
+            left: -152px;
+          }
+          }
+
+
+      //   p {
+      //     margin-top: 22px;
+     }
+      }
+
+
+    .features {
+      > div {
+        .image {
+          scale: 0.6;
+        }
+      }
+
+    //   .star-img {
+    //     top: 51%;
+    // left: 20%;
+    //   }
+
+    //   .done-img {
+    //     top: 72%;
+    //     left: 100%;
+    //   }
+    }
+
+    .register-now {
+      // .at {
+      //   top: -2px;
+      //   left: -36px;
+      // }
+
+      // .body {
+      //   margin: 10px;
+      //   margin-top: 193px;
+      // }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@media (max-width:300px) {
+  .msg {
+    right:initial;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

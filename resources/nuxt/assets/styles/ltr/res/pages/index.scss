@@ -1,0 +1,151 @@
+@media (max-width: 1199px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .pattren {
+          // left: 16%;
+          left: 80%;
+        }
+      }
+
+      .rigth {
+        .title {
+          .arrow {
+            left: initial;
+            right: 54%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .image {
+          .pattren {
+            left: 50%;
+          }
+        }
+      }
+
+      .rigth {
+        .title {
+          .word {
+            left: initial;
+            right: 43%;
+          }
+          .arrow {
+            left: initial;
+            right: 63%;
+          }
+        }
+      }
+    }
+
+    .features {
+      .star-img:not(.done-img) {
+        top: 58%;
+        left: -2%;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .index-page {
+    .first-sect {
+      .rigth {
+        .title {
+          .word {
+            left: initial;
+            right: 0%;
+          }
+          .arrow {
+            left: initial;
+            right: 33%;
+          }
+        }
+      }
+    }
+    .other-features {
+      .image {
+        .box-feat {
+          left: initial;
+          right: 0 !important;
+
+          text-align: left;
+          padding-right: 13px;
+          padding-left: 27px;
+        }
+      }
+    }
+    .register-now .at {
+      left: initial;
+      right: -131px;
+    }
+    .features {
+      .done-img {
+        top: 76%;
+        left: 89%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .index-page {
+    .features {
+      // .star-img {
+      //   left: 20%;
+      // }
+
+      // .done-img {
+      //   left: 100%;
+      // }
+    }
+
+    .register-now {
+      .at {
+        left: initial;
+        right: -36px;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .image {
+          .aim {
+            right: -24px;
+            bottom: -7px;
+          }
+
+          .cofe {
+            left: -134px;
+            top: 20px;
+            width: 80px;
+          }
+
+          .back {
+            margin-left: -153%;
+          }
+
+          .rocket {
+            right: -136px;
+          }
+
+         .pattren {
+            left: 95%;
+        }
+        }
+
+      }
+    }
+  }
+}

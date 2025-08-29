@@ -1,0 +1,20 @@
+@media (max-width:420px) {
+  .pop-up {
+    &.medium-box {
+      .box {
+        min-width: 95%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 730px) {
+  .pop-up {
+    &.list {
+  .options-pop {
+     left: 50px;
+    }
+    }
+  }
+}

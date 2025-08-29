@@ -1,0 +1,20 @@
+.about-page-global {
+  .content-box {
+    background-color: $color_white_a;
+    color: $color_b;
+
+    .share {
+      ul {
+        li {
+          a {
+            color: $color_a;
+          }
+        }
+      }
+    }
+
+    a {
+      color: $color_a;
+    }
+  }
+}

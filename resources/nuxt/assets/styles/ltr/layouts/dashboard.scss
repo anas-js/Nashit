@@ -1,0 +1,208 @@
+.dashboard-layout {
+  > div {
+    $size: 255px;
+    > .rigth {
+      left: 0;
+      right: initial;
+      ul {
+        li {
+          a,
+          button {
+            i {
+              margin-right: 10px;
+              margin-left: initial;
+            }
+          }
+        }
+      }
+
+      .new-btn {
+        i {
+          margin-left: initial;
+          margin-right: 5px;
+        }
+      }
+    }
+    > .left {
+      margin-right: initial;
+      margin-left: $size;
+      > div {
+        .content {
+          margin-left: initial;
+          margin-right: 30px;
+        }
+      }
+
+      // .nav-user,.buttons {
+      //   right: 30px;
+      //   left: initial;
+      // }
+
+      .user {
+        right: 30px;
+        left: initial;
+      }
+      .buttons {
+        a {
+          &.login {
+            margin-left: initial;
+            margin-right: 15px;
+          }
+        }
+      }
+
+      .box-course {
+        margin-right: 10px;
+        margin-left: initial;
+
+        .list {
+          right: initial;
+          left: 20px;
+
+          ul {
+            li {
+              button {
+                i {
+                  margin-left: initial;
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+        .background {
+          .private-flag {
+            left: initial;
+            right: 20px;
+          }
+        }
+        .text {
+          .rate {
+            right: 22px;
+            left: initial;
+          }
+        }
+      }
+
+      .box-board {
+        margin-right: 10px;
+        margin-left: initial;
+
+        .list {
+          right: initial;
+          left: 20px;
+          ul {
+            li {
+              button {
+                i {
+                  margin-left: initial;
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+        .image {
+          .private-flag {
+            left: initial;
+            right: 20px;
+          }
+          .rate {
+            left: initial;
+            right: 10px;
+          }
+        }
+
+        .text {
+          ul {
+            li {
+              i {
+                margin-right: 10px;
+                margin-left: initial;
+              }
+            }
+          }
+        }
+      }
+
+      .filter {
+        left: initial;
+        right: 24px;
+        .btn {
+          i {
+            margin-left: 5px;
+            margin-right: initial;
+          }
+        }
+
+        .list-filter {
+          left: initial;
+          right: 0;
+
+          > div {
+            margin-right: 10px;
+            margin-left: initial;
+            ul {
+              li {
+                i {
+                  margin-right: 5px;
+                  margin-left: initial;
+                }
+              }
+            }
+          }
+        }
+      }
+      .load-more {
+        i {
+          margin-right: 5px;
+          margin-left: initial;
+        }
+      }
+
+      .box-loading {
+        .box-board {
+          .text {
+            .date {
+              margin-left: 2px;
+              margin-right: initial;
+            }
+
+            ul {
+              li {
+                &:first-of-type {
+                  p {
+                    margin-left: -3px;
+                    margin-right: initial;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .box-course {
+          .date {
+            margin-left: 2px;
+            margin-right: initial;
+          }
+
+          .day-left {
+            margin-left: 2px;
+            margin-right: initial;
+          }
+        }
+      }
+
+      .no-contnet {
+        > div {
+          a {
+            i {
+              margin-right: 5px;
+              margin-left: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}

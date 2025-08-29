@@ -1,0 +1,39 @@
+.error-layout {
+  .box {
+    background-color: $color_white_c;
+    width: 400px;
+
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+
+    h1 {
+      color: $color_a;
+      margin-top: -45%;
+      font-size: 60px;
+    }
+
+    p {
+      color: $color_b;
+    }
+
+    img {
+      transform: translateY(-50%);
+      width: 90%;
+    }
+
+    .go-back {
+      display: inline-block;
+      @extend .main-btn-lite;
+      margin-top: 10px;
+      text-decoration : none;
+      i {
+        margin-left: 5px;
+      }
+    }
+  }
+
+
+}

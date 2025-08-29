@@ -1,0 +1,20 @@
+.select-element {
+  .elements {
+
+    li {
+      .box-select {
+        margin-left: initial;
+        margin-right: 5px;
+      }
+
+
+    }
+
+    &.linear {
+      li {
+      margin-left:initial;
+      margin-right: 25px;
+      }
+    }
+  }
+}

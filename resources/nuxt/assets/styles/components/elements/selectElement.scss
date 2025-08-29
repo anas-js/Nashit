@@ -1,0 +1,49 @@
+.select-element {
+  .elements {
+    list-style-type: none;
+
+    li {
+      cursor: pointer;
+      color: $color_b;
+      .box-select {
+        width: 18px;
+        height: 18px;
+        border: 2px solid $color_a;
+        border-radius: 7px;
+        vertical-align: middle;
+        margin-left: 5px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+         opacity: 0;
+         visibility: hidden;
+         transition:transform cubic-bezier(0.29, 0.73, 0.4, 0.79) 0.3s;
+         transform: rotateY(90deg);
+        }
+      }
+
+      &.select {
+        .box-select {
+        background-color: rgba($color: $color_a, $alpha: 0.34);
+        border: none;
+        color: $color_a;
+        }
+        i {
+          transform: rotateY(0deg);
+          opacity: 1;
+          visibility: visible;
+
+        }
+      }
+    }
+
+    &.linear {
+      li {
+        display: inline-block;
+      margin-left: 25px;
+      }
+    }
+  }
+}

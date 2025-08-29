@@ -1,0 +1,58 @@
+@media (max-width:600px) {
+  .rate-item-PageItems {
+    .boxs {
+      margin: 55px 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+
+       >* {
+        margin: 0 !important;
+
+
+      }
+
+    }
+
+
+}
+}
+
+@media (max-width:380px) {
+  .rate-item-PageItems {
+    .boxs {
+      align-items: center;
+       > * {
+        margin:  0 auto;
+      }
+
+      .box-rate:not(.box-day) {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px !important;
+        > p{
+          font-size: 40px;
+        }
+
+        .fill {
+              height: calc(100% - 34.03px);
+        }
+
+        .variable-ratio {
+          p {
+            font-size: 20px;
+          }
+
+          span {
+            font-size: 13px
+          }
+        }
+      }
+      }
+      .eval-text {
+        width: 100% !important;
+      }
+
+    }
+
+}

@@ -1,0 +1,143 @@
+.finish-page-course {
+  .flag {
+    width: 100%;
+  }
+  .finish-box {
+    background-color: $color_white_a;
+    border-radius: 25px;
+    margin-top: -85px;
+    padding: 10px;
+    padding-top: 80px;
+
+    p {
+      color: $color_b;
+    }
+
+    .top {
+      h2 {
+        color: $color_a !important;
+        font-size: 30px;
+        word-wrap: break-word;
+        word-wrap: anywhere;
+        overflow-wrap: anywhere;
+      }
+    }
+
+    .stats {
+      margin-top: 10px;
+      > div {
+        display: flex;
+        align-items: center;
+        background-color: $color_white_c;
+        border-radius: 9px;
+        padding: 10px 15px;
+        position: relative;
+        margin-top: 10px;
+        > * {
+          width: 100%;
+        }
+
+        .pack {
+          text-align: left;
+          p {
+            display: inline-block;
+          }
+          .comment {
+            color: $color_a;
+            font-size: 10px;
+            // line-height: 5px;
+            display: block;
+            margin-top: -7px;
+        }
+
+        }
+
+        .notice {
+          border-radius: 25px;
+          padding: 2px 5px;
+          font-size: 12px;
+          background-color: $color_a_lite;
+          color: $color_a;
+          margin-left: 5px;
+
+          &.good {
+            color: $color_green_a;
+            background-color:  rgba($color: $color_green_a, $alpha: 0.13);
+          }
+        }
+
+        > .notice {
+          position: absolute;
+          width: fit-content;
+          top: -11px;
+          left: -13px;
+          font-size: 10px;
+          color: $color_green_a;
+          background-color:  rgba($color: $color_green_a, $alpha: 0.13);
+          b {
+            font-size: 12px;
+          }
+
+        }
+
+        &.m-top {
+          margin-top: 17px;
+        }
+
+      }
+    }
+    .share {
+      margin-top: 20px;
+
+      h2 {
+        color: $color_a !important;
+      }
+
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        position: static;
+        // align-items: center;
+        // justify-content: center;
+
+        a,button {
+          width: 47%;
+          text-align: center;
+          text-decoration: none;
+          margin:  5px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          // width: fit-content;
+          background-color: $color_b;
+          @extend .main-btn;
+
+          i {
+            font-weight: normal;
+          }
+
+          &.twitter {
+            background-color: #00acee;
+          }
+
+          &.whatsapp {
+            background-color: #25d366;
+          }
+
+          &.facebook {
+            background-color: #1877f2;
+          }
+
+          &.telegram {
+            background-color: #2AABEE;
+          }
+
+          &.more {
+            background-color: $color_a;
+          }
+        }
+      }
+
+    }
+  }
+}

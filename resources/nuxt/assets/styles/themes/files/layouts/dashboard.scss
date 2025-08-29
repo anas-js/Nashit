@@ -1,0 +1,302 @@
+.dashboard-layout {
+  > div {
+    > .rigth {
+      ul {
+        li {
+          a,
+          button {
+            color: $color_b;
+            i {
+              color: $color_a;
+            }
+
+            &::before {
+              background-color: rgba($color: $color_a, $alpha: 0.3);
+            }
+
+            &.router-link-active {
+              color: $color_a;
+            }
+          }
+        }
+      }
+
+      .new-btn {
+        background-color: rgba($color: $color_a, $alpha: 0.3);
+        color: $color_a;
+      }
+    }
+    > .left {
+      > div {
+        h1 {
+          color: $color_b;
+        }
+
+        .content {
+          background-color: $color_white_c;
+
+          > div {
+            h2 {
+              color: $color_b;
+            }
+          }
+        }
+      }
+
+      .buttons {
+        a {
+          &.login {
+            color: $color_b;
+          }
+        }
+      }
+
+      .box-course {
+        background-color: $color_white_a;
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .background {
+          background-color: $color_a;
+        }
+
+        .text {
+          .name,
+          .date {
+            color: $color_b;
+          }
+
+          .day-left {
+            color: $color_a;
+          }
+
+          .rate {
+            color: $color_a;
+
+            border: 1px solid $color_a;
+          }
+        }
+      }
+
+      .box-board {
+        background-color: $color_white_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .image {
+          background-color: $color_a;
+
+          .rate {
+            background-color: $color_white_a;
+            color: $color_b;
+          }
+        }
+
+        .text {
+          .date {
+            color: $color_b;
+          }
+          ul {
+            li {
+              color: $color_b;
+
+              i {
+                background-color: rgba($color: $color_a, $alpha: 0.3);
+
+                color: $color_a;
+              }
+            }
+          }
+        }
+      }
+
+      .filter {
+        .btn {
+          background-color: $color_white_a;
+          color: $color_b;
+
+          &.active {
+            background-color: $color_a !important;
+            color: $color_white_a !important;
+          }
+
+          &.filterIsWork {
+            background-color: $color_white_a;
+            color: $color_a;
+          }
+        }
+
+        .list-filter {
+          background-color: $color_white_a;
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+          > div {
+            h3 {
+              color: $color_b;
+            }
+            ul {
+              li {
+                color: $color_b;
+
+                &:hover {
+                  background-color: rgba($color: $color_white_b, $alpha: 0.4);
+                }
+
+                &::before {
+                  background-color: rgba($color: $color_a, $alpha: 0.3);
+                }
+
+                i {
+                  color: $color_a;
+                }
+
+                &.active {
+                  color: $color_a;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .box-loading {
+        .box-board {
+          background-color: $color_white_g;
+
+          .image {
+            background-color: $color_white_f;
+            .rate {
+              color: transparent;
+              background-color: $color_white_h;
+            }
+          }
+
+          .text {
+            h2 {
+              background-color: $color_white_h;
+              color: transparent;
+            }
+
+            .date {
+              background-color: $color_white_h;
+              color: transparent;
+            }
+
+            ul {
+              li {
+                i {
+                  background-color: $color_white_h;
+                  color: $color_white_f;
+                }
+
+                p {
+                  background-color: $color_white_h;
+                  color: transparent;
+                }
+              }
+            }
+          }
+
+          &::before {
+            background-image: linear-gradient(
+              90deg,
+              transparent,
+              $color_b,
+              transparent
+            );
+          }
+        }
+        .box-course {
+          background-color: $color_white_g;
+
+          .background {
+            background-color: $color_white_f;
+          }
+
+          .name {
+            background-color: $color_white_h;
+            color: transparent;
+          }
+
+          .date {
+            background-color: $color_white_h;
+            color: transparent;
+          }
+
+          .day-left {
+            background-color: $color_white_h;
+            color: transparent;
+          }
+
+          .rate {
+            background-color: $color_white_h;
+            color: transparent;
+            border: none;
+          }
+
+          &::before {
+            background-image: linear-gradient(
+              90deg,
+              transparent,
+              $color_b,
+              transparent
+            );
+          }
+        }
+      }
+
+      .no-contnet {
+        > div {
+          h3 {
+            color: $color_a;
+          }
+
+          p {
+            color: $color_b;
+          }
+
+          a {
+            background-color: $color_white_a;
+            color: $color_b;
+
+            i {
+              color: $color_a;
+            }
+          }
+        }
+      }
+    }
+
+    > .bottom {
+      box-shadow: 0 0 30px 5px rgba($color: $color_white_a, $alpha: 0.5);
+      background-color: $color_white_a;
+
+      ul {
+        li {
+          a,
+          button {
+            color: $color_b;
+
+            i {
+              color: $color_a;
+            }
+
+            &.router-link-active {
+              background-color: rgba($color: $color_a, $alpha: 0.3);
+              color: $color_a;
+            }
+          }
+        }
+      }
+
+      .global-list {
+        a,
+        button {
+          &.router-link-active {
+            background-color: rgba($color: $color_b, $alpha: 0.3);
+            color: $color_b;
+          }
+        }
+      }
+    }
+  }
+}

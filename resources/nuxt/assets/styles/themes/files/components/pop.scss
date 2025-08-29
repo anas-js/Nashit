@@ -1,0 +1,65 @@
+.pop-up {
+  color: $color_b;
+
+
+
+  .box {
+
+    background-color: $color_white_a;
+
+
+
+    .title {
+      input {
+        // border: 1px dashed $color_white_e;
+        background-color: $color_white_a;
+        color: $color_b;
+
+      }
+      h1 {
+        color: $color_b;
+
+      }
+
+      .close {
+        background-color:$color_a_lite;
+        color: $color_a;
+      }
+    }
+
+
+
+  }
+
+  &.list {
+    .options-pop {
+      .btn-list-options {
+        color: $color_b;
+      }
+
+      .list {
+        background-color: $color_white_c;
+        box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.10);
+
+        ul {
+          li {
+            button {
+              color: $color_b;
+
+              i {
+                color: $color_a;
+              }
+            }
+
+            &.delete {
+              button,
+              i {
+                color: $color_red_a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نشط</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        body {
+            background-color: #FFFDFD;
+            direction: rtl;
+            padding: 20px;
+
+        }
+
+        ::selection {
+            background-color: #FA7878;
+            color: #fff;
+        }
+
+        a {
+            color: #FA7878;
+        }
+
+        p {
+            color: #1B1C52;
+        }
+
+        .box {
+            width: 400px;
+            background-color: #F9F9F9;
+            padding: 20px;
+            border-radius: 25px;
+            margin: 50px auto;
+            position: relative;
+            /* padding-right: 150px; */
+            /* margin-top: 100px; */
+
+        }
+
+        .box .patt {
+            position: absolute;
+            right: 8px;
+            top: -39px;
+        }
+
+        .box .footer {
+            margin: 0 auto 0 10px;
+            width: fit-content;
+            /* position: absolute;
+            left: 37px;
+
+            bottom: 20px; */
+
+        }
+
+        .box .footer .logo {
+            width: 90px;
+        }
+        .box .header {
+            background-image: url('https://i.postimg.cc/VkYFrJp6/image.png');
+            width: 100%;
+            height: 120px;
+            background-size: 157px;
+            border-radius: 25px;
+        }
+
+        .box .container {
+            padding-bottom: 80px;
+        }
+
+        .box .container .title {
+            color: #FA7878;
+            margin-top: 10px;
+        }
+
+        .main-btn {
+            background-color: #FA7878;
+            padding: 7px 16px;
+            border-radius: 15px;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin-top: 15px;
+            width: fit-content;
+        }
+
+        .main-btn-lite {
+            background-color: #fa70704d;;
+            padding: 7px 16px;
+            border-radius: 15px;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            color: #FA7878;
+            font-weight: 500;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: fit-content;
+            display: block;
+            margin-top: 15px;
+        }
+
+        .code {
+            text-align: center;
+            padding: 10px;
+            background-color: #fa70704d;
+            color: #FA7878;
+            border-radius: 15px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        .course {
+            margin-top: 10px;
+            border-radius: 12px;
+            border: 1px dashed #FA7878;
+            padding: 10px;
+
+        }
+
+        .course h3 {
+            color: #FA7878;
+        }
+
+        .course ul {
+            list-style-position: inside;
+            color: #1B1C52;
+
+        }
+    </style>
+    <style>
+        @media (max-width:610px) {
+            .box {
+                width: 90%;
+                /* padding-right: 20px; */
+            }
+
+            /* .box .patt {
+                position: absolute;
+                right: 8px;
+                bottom: -43%;
+                top: initial;
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+
+        </div>
+
+        <div class="container">
+            <h1 class="title">مرحبا خالد</h1>
+            <p>ملخص دروس اليوم ان شاء الله</p>
+            <div class="course">
+                <h3>دورة PHP</h3>
+                <ul>
+                    <li>الدرس الاول</li>
+                    <li>الدرس الثاني</li>
+                </ul>
+            </div>
+            <div class="course">
+                <h3>دورة JS</h3>
+                <li>الدرس 28</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <img class="logo" alt="image" src="https://i.postimg.cc/RhnhPLYR/image.png">
+
+        </div>
+
+    </div>
+</body>
+
+</html>

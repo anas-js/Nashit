@@ -1,0 +1,78 @@
+.msg {
+
+  .box {
+    background-color: $color_white_a;
+
+    box-shadow: 0 0 30px rgba($color: $color_black_a, $alpha:0.07);
+
+
+
+    p {
+      color: $color_b;
+
+    }
+
+    i {
+      color: $color_a;
+    }
+
+
+    &.error {
+      border: 1px solid $color_red_a;
+      i {
+        color: $color_red_a;
+      }
+    }
+
+    &.ok {
+      border: 1px solid $color_green_a;
+      i {
+        color: $color_green_a;
+      }
+    }
+
+    &.sure {
+      border: 1px solid $color_yellow_a;
+      i {
+        color: $color_yellow_a;
+      }
+    }
+
+    &.disabled {
+      border: 1px solid $color_white_e;
+       * {
+        color: $color_white_e !important;
+      }
+
+      .true,.fasle {
+       background-color: rgba($color: $color_white_e, $alpha: 0.5) !important;
+       border: 1px solid $color_white_e;
+      }
+    }
+
+
+    .buttons {
+
+      > div {
+
+        .true {
+
+          i {
+            color: $color_a;
+          }
+
+        }
+
+        .false {
+          @extend .second-btn-lite;
+          i {
+            color: $color_b;
+          }
+        }
+      }
+
+
+
+    }
+  }
+}

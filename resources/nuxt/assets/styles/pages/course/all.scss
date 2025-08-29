@@ -1,0 +1,260 @@
+.all-page-course {
+  .boxs {
+    padding: 5px 0px;
+    padding-left: 10px;
+    @extend .boxs-lessons;
+
+    > div {
+      display: flex;
+      align-items: center;
+
+      > * {
+        width: 100%;
+      }
+
+      &.no-note {
+        .left {
+          width: 20%;
+        }
+      }
+
+      .icon {
+        cursor: inherit !important;
+
+        i {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      .left {
+        &.box-note {
+          display: flex !important;
+          justify-content: left;
+          align-items: center;
+          // position: absolute;
+          left: 15px;
+          top: 50%;
+          // transform: translateY(-50%);
+          display: inline-block;
+
+          .note-btn {
+            position: sticky;
+          }
+
+          p {
+            width: 160px;
+            max-height: 92px;
+            overflow: hidden;
+            // height: 40px;
+            // overflow: hidden;
+            vertical-align: middle;
+            position: relative;
+            word-wrap: break-word;
+            word-wrap: anywhere;
+            overflow-wrap: anywhere;
+            // white-space: pre-wrap;
+
+
+              &::before {
+                content: "";
+                left: 0;
+                height: 15px;
+                width: 100%;
+                background-image:linear-gradient(180deg, transparent, $color_white_a);
+                position: absolute;
+                bottom: 0;
+                pointer-events: none;
+              }
+
+
+
+          }
+        }
+      }
+
+      .rigth {
+        display: inline-block;
+
+        > * {
+          vertical-align: middle;
+        }
+
+       .box-text {
+          display: inline-block;
+          margin: 0 10px;
+          width: calc(100% - 60px);
+
+          p {
+            margin: 0;
+            font-weight: bold;
+
+            word-wrap: break-word;
+            word-wrap: anywhere;
+            overflow-wrap: anywhere;
+            // white-space: pre-wrap;
+            font-size: 20px;
+            // width: 100%;
+          }
+
+          .date {
+            font-size: 10px;
+            font-weight: normal;
+            display: block;
+          }
+        }
+      }
+
+      &.remove {
+        display: none
+      }
+
+    }
+  }
+
+  .btn-addNewLes {
+    @extend .btn-white;
+    margin: 10px 0;
+    margin-top: 20px;
+  }
+
+
+
+}
+.add-new-les-popup {
+  .add-new-les-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    @extend .main-btn;
+  }
+
+  .box {
+    position: relative;
+    transform: translateX(0);
+    overflow: hidden;
+
+    code {
+      display: inline-block;
+      margin: 0 9px;
+    }
+    .comment {
+      margin-top: 10px;
+      user-select: none;
+    }
+
+    .items {
+      overflow: auto;
+      max-height: 200px;
+      padding: 10px;
+      @extend .scroll-bar;
+
+      .box-item {
+        // @extend .input-btn-box;
+        @include input-btn-box(30px);
+
+        & {
+          width: 100%;
+          margin-top: 10px;
+          background-color: $color_white_c;
+        }
+
+
+        &:first-of-type:hover  {
+          input {
+            width: 100%;
+          }
+        }
+
+        &.error {
+          color: $color_red_a;
+          border: 2px solid $color_red_a!important;
+        }
+
+      }
+    }
+  }
+
+  .addedLessons {
+    margin-top: 40px !important;
+  }
+
+  .full-loading {
+    backdrop-filter: initial;
+    background-color: $color_white_a;
+  }
+
+}
+
+
+// here
+.move-lesson-popup {
+  // here color in dark and white
+  // @extend .move-task-popup;
+  .select {
+    display: inline-block;
+    user-select: none;
+    p {
+      background-color: $color_white_c;
+      padding: 5px 14px;
+      border-radius: 12px;
+      display: inline-block;
+      color: $color_b;
+      vertical-align: middle;
+      cursor: pointer;
+
+      i {
+        vertical-align: middle;
+        color: $color_a;
+        transition: 0.3s;
+        display: inline-block;
+        font-size: 20px;
+        margin-left: -5px;
+      }
+    }
+
+    .list-items {
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.06);
+      transition: 0.3s;
+    }
+
+    &.active {
+      .list-items {
+        opacity: 1;
+        visibility:visible;
+      }
+
+      p {
+        i {
+          transform: rotateZ(180deg);
+
+        }
+      }
+
+    }
+  }
+  .lessons-list {
+    padding-left: 8px;
+    .list {
+      max-height: 95px;
+      overflow: auto;
+      @extend .scroll-bar;
+    }
+  }
+}
+
+.note-popup {
+  .isDoneLesson {
+    position: absolute;
+    bottom: 23px;
+    font-size: 14px;
+    color: $color_b;
+
+    i {
+      color: $color_green_a;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@media (max-width:815px) {
+  .profile-page {
+    .box-profile {
+      width: 95%;
+    }
+  }
+}
+@media (max-width:650px) {
+  .profile-page {
+    .background {
+      height: 30vh;
+    }
+    .box-profile {
+      .box-info {
+        display: block;
+        padding: 30px 40px;
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .text {
+          display: block;
+          padding: 0;
+          padding-bottom: 55px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:572px) {
+  .profile-page {
+    .box-profile {
+      .box-courses {
+        .course {
+          width: 100%;
+        }
+      }
+
+      .box-boards {
+        .board {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:380px) {
+  .profile-page {
+    .box-profile {
+      .box-info {
+        .image {
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

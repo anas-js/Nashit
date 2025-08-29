@@ -1,0 +1,134 @@
+.todos-page-board {
+  .boxs-todos {
+    .todo-list {
+      background-color: $color_white_c;
+
+      .header {
+        .left {
+          .btn-list-options {
+            color: $color_b;
+          }
+
+          .list {
+            background-color: $color_white_a;
+
+            // box-shadow: 0 7px 30px 2px
+            //   rgba($color: $color_black_a, $alpha: 0.03);
+            box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.10);
+
+            ul {
+              li {
+                button {
+                  color: $color_b;
+
+                  i {
+                    color: $color_a;
+                  }
+                }
+
+                &.delete {
+                  button,
+                  i {
+                    color: $color_red_a;
+                  }
+                }
+              }
+            }
+          }
+          .box-loading {
+            color: $color_a;
+
+            background-color: $color_a_lite;
+          }
+        }
+      }
+
+      .tasks {
+        .task {
+          background-color: $color_white_a;
+
+          .icon {
+            background-color: $color_a;
+            color: $color_white_a;
+
+            &.done {
+              background-color: $color_green_a;
+            }
+          }
+
+          // .new-lesson-flag {
+          //   background-color: $color_white_a;
+
+          //   box-shadow: 0 13px 30px 5px
+          //     rgba($color: $color_black_a, $alpha: 0.06);
+          // }
+          p {
+            color: $color_b;
+          }
+        }
+      }
+
+      .box-added-task {
+        background-color: $color_white_c;
+
+        input {
+          color: $color_b;
+          background: none;
+          &::placeholder {
+            color: rgba($color: $color_b, $alpha: 0.3);
+          }
+        }
+      }
+    }
+  }
+}
+
+// .copy-todo-popup,.move-task-popup {
+//   color: $color_b;
+// }
+
+// .notebook-task-popup {
+//   .options-task {
+//     .btn-list-options {
+//       color: $color_b;
+//     }
+
+//     .list {
+//       background-color: $color_white_c;
+//       box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.10);
+
+//       ul {
+//         li {
+//           button {
+//             color: $color_b;
+
+//             i {
+//               color: $color_a;
+//             }
+//           }
+
+//           &.delete {
+//             button,
+//             i {
+//               color: $color_red_a;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.details-task-popup {
+  .box {
+    // min-width: 300px;
+    > div {
+      color: $color_b;
+      p {
+        span {
+          color: $color_a;
+        }
+      }
+    }
+  }
+}

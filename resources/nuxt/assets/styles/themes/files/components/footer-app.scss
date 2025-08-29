@@ -1,0 +1,38 @@
+.footer-app {
+
+  .anas {
+    color: $color_b;
+    a {
+      color: $color_a;
+    }
+  }
+
+  .about-us {
+    div {
+      b,p {
+        color: $color_b;
+      }
+    }
+  }
+
+  .list {
+    h3 {
+      color: $color_a;
+    }
+
+    ul {
+      a {
+        color: $color_b;
+      }
+    }
+    &.juzr {
+      h3 {
+        color: #fff;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

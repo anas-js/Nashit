@@ -1,0 +1,58 @@
+.start-page {
+  .main {
+    .content {
+      .type-element {
+        &.course {
+          .errMsg {
+            text-align: left;
+          }
+
+          .done {
+            .data {
+              text-align: left;
+            }
+          }
+        }
+        &.board {
+          .errMsg {
+            text-align: left;
+          }
+        }
+      }
+
+      .choose-task {
+        .boxs {
+          > div {
+            margin-left: initial;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .lessons {
+        .items {
+          .box-item {
+            @include input-btn-box(30px);
+          }
+        }
+      }
+    }
+
+    .bar-steps {
+      right: initial;
+      left: 0;
+    }
+
+    .btn-next {
+      i {
+        margin-right: initial;
+        margin-left: 3px;
+      }
+    }
+
+    .btn_back {
+      right: initial;
+      left: 47px;
+    }
+  }
+}

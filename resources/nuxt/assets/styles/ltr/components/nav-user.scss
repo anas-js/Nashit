@@ -1,0 +1,28 @@
+.nav-user {
+  .top {
+    p {
+      margin-right: initial;
+      margin-left: 5px;
+    }
+  }
+
+  .bottom {
+    ul {
+      li {
+        a {
+          i {
+            margin-left: initial;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    .logout {
+      i {
+        margin-left: initial;
+        margin-right: 5px;
+      }
+    }
+  }
+}

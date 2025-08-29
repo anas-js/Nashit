@@ -1,0 +1,17 @@
+.msg {
+  right:inherit;
+  left: 20px;
+  .box {
+    i {
+      margin-left: initial;
+      margin-right: 10px;
+    }
+
+    .buttons {
+      > div {
+        left: initial;
+        right: 10px;
+      }
+    }
+  }
+}

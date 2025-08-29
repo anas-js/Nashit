@@ -1,0 +1,92 @@
+.footer-app {
+  margin-top: 170px;
+  margin-bottom: 60px;
+
+  .anas {
+    text-align: center;
+    margin-top: 10px;
+    color: $color_b;
+    a {
+      color: $color_a;
+      direction: ltr;
+      display: inline-block;
+    }
+  }
+
+  .about-us {
+   div {
+    width: 70%;
+
+    .logo {
+      width: 140px;
+    }
+
+    .social {
+      list-style-type: none;
+      font-size: 25px;
+
+      li {
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 10px;
+        a {
+          color: $color_black_a;
+          text-decoration: none;
+        }
+      }
+    }
+
+
+    .from-juzr {
+      margin-top: 20px;
+      width: 100px;
+      display: inline-block;
+
+      a {
+        img {
+          width: 70px;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+      }
+
+    }
+
+    b {
+      margin-top: 20px;
+      display: block;
+      color: $color_a;
+    }
+   }
+
+
+  }
+
+  .list {
+    h3 {
+      color: $color_a;
+    }
+
+    ul {
+      list-style-type: none;
+
+      a {
+        text-decoration: none ;
+        color: $color_b;
+        &:hover {
+          text-decoration: underline
+        }
+      }
+    }
+
+    &.juzr {
+      h3 {
+        color: #000;
+      }
+
+      a {
+        color: #000;
+      }
+    }
+  }
+}

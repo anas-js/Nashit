@@ -1,0 +1,84 @@
+.todos-page-board {
+  .boxs-todos {
+    .todo-list {
+      margin-left: initial;
+      margin-right: 30px;
+      .header {
+        .left {
+          left: initial;
+          right: 0;
+          .list {
+            left: initial;
+            right: 0;
+
+            ul {
+              li {
+                button {
+                  i {
+                    margin-left: initial;
+                    margin-right: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .tasks {
+        .task {
+          .new-lesson-flag {
+            left: -13px;
+            right: initial;
+          }
+          .late-lesson-flag {
+            @extend .new-lesson-flag;
+          }
+          p {
+            margin-right: initial;
+            margin-left: 10px;
+          }
+
+          .note-btn {
+            left: initial;
+            right: 15px;
+          }
+        }
+      }
+
+      .box-added-task {
+        left: initial;
+        right: 0;
+        // margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// .notebook-task-popup {
+//   .save-changes {
+//     left: initial !important;
+//     right:  59px !important;
+//   }
+
+
+// }
+.details-task-popup {
+  .box {
+   > div {
+
+     p {
+
+       span {
+         &.time {
+
+         direction: rtl;
+         text-align: left;
+         }
+
+
+       }
+     }
+   }
+  }
+ }

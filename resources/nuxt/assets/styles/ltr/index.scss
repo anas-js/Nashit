@@ -1,0 +1,60 @@
+.ltr {
+  direction: ltr;
+
+  @import 'base';
+  // pages
+  @import 'pages/index';
+  @import 'pages/start';
+  @import 'pages/profile';
+  @import 'pages/install';
+  @import 'pages/update';
+  @import 'pages/about';
+  @import 'pages/registration';
+ 
+  
+  // pages/course
+  @import 'pages/course/today';
+  @import 'pages/course/all';
+  @import 'pages/course/finish';
+
+  @import 'pages/board/index';
+
+  @import 'components/header-app';
+  @import 'components/footer-app';
+  @import 'components/nav-user';
+  @import 'components/pop';
+  @import 'components/msg';
+  @import 'components/note-book';
+  @import 'components/full-loading';
+  @import 'components/alert';
+  @import 'components/prefs-btns';
+  // components/pageItems
+  @import 'components/pageItems/rate';
+  // components/elements
+  @import 'components/elements/list-items';
+  @import 'components/elements/selectElement';
+  // responsive / pages
+
+  // layouts
+  @import 'layouts/dashboard';
+  @import 'layouts/page';
+  @import 'layouts/error';
+
+  
+  // responsive / components
+  @import 'res/components/msg';
+  @import "res/components/hedaer-app";
+
+  // responsive  / layouts
+  @import 'res/layouts/dashboard';
+  @import 'res/layouts/page';
+
+  @import 'res/pages/index';
+  @import 'res/pages/start';
+  @import 'res/pages/today';
+  @import 'res/pages/all';
+  @import 'res/pages/board/index';
+}
+
+
+// TODO

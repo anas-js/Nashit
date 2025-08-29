@@ -1,0 +1,57 @@
+.update-page-global {
+  @extend .install-page-global;
+  .date {
+    position: absolute;
+    left: 40px;
+    top: 21px;
+    color: $color_b;
+    font-size: 15px;
+
+  }
+
+  .last-update {
+    position: absolute;
+    top: -11px;
+    right: -5px;
+    background-color: $color_a;
+    color: $color_white_a;
+    border-radius: 25px;
+    padding: 2px 5px;
+    font-size: 12px;
+    z-index: 5;
+  }
+
+  .boxs {
+    > div {
+      position: relative;
+      .content-box {
+        .added {
+          margin-top: 10px;
+          strong {
+            color: $color_a
+          }
+          ul {
+            list-style-type: none;
+            li {
+              margin-right: 5px;
+            i {
+              margin-left: 5px;
+              color: $color_green_a;
+            }
+            }
+          }
+        }
+
+        .removed {
+
+          i {
+            color: $color_red_a !important;
+          }
+
+          @extend .added;
+        }
+      }
+    }
+  }
+
+}

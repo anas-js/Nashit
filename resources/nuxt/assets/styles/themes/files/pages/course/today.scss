@@ -1,0 +1,29 @@
+
+.today-page-course {
+  .todays-lessons {
+    .btn-addNewLes {
+     background-color: $color_white_a;
+      .full-loading {
+        background-color: $color_white_a;
+      }
+    }
+
+    .done-all {
+      .box-top {
+        &::before {
+          background-color: $color_a_lite;
+        }
+
+        p {
+          color: $color_a;
+        }
+      }
+    }
+
+    .no-lessons {
+      .box-text {
+        color: $color_b;
+      }
+    }
+  }
+}

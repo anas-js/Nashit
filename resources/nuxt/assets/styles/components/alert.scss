@@ -1,0 +1,41 @@
+.alert {
+  color: $color_b;
+  font-size: 18px;
+  background-color: $color_white_c;
+  padding: 20px;
+  border-radius: 25px;
+  width: fit-content;
+
+  i {
+    margin-left: 11px;
+    background-color: rgba($color: $color_b, $alpha: 0.3);
+    padding: 5px;
+    border-radius: 9px;
+    color: $color_b;
+  }
+
+  &.full {
+    width:auto;
+  }
+
+
+  &.warning {
+    background-color: rgba($color: #ffb84c, $alpha: 0.1);
+    i {
+      background-color: rgba($color: #ffb84c, $alpha: 0.3);
+      color: #ffb84c;
+    }
+  }
+
+  &.liner {
+    overflow: hidden;
+    span {
+      white-space: nowrap;
+      overflow-x: auto;
+      display: inline-block;
+      width: calc(100% - 40px);
+      vertical-align: middle;
+      @include scroll-bar-custom(4px,$color_white_e);
+    }
+  }
+}

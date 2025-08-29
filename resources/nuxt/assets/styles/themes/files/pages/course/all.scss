@@ -1,0 +1,102 @@
+.all-page-course {
+  .boxs {
+    // @extend .boxs-lessons;
+
+    > div {
+
+
+      .left {
+        &.box-note {
+          p {
+            &::before {
+              background-image:linear-gradient(180deg, transparent, $color_white_a);
+            }
+          }
+        }
+      }
+
+      .rigth {
+        .box-text {
+          .date {
+            color: $color_b;
+          }
+        }
+      }
+
+
+    }
+  }
+
+  .btn-addNewLes {
+    // @extend .btn-white;
+    background-color: $color_white_a;
+  }
+
+
+
+}
+.add-new-les-popup {
+  .add-new-les-btn {
+    // @extend .main-btn;
+  }
+
+  .box {
+
+
+    .items {
+      // @extend .scroll-bar;
+
+      .box-item {
+        // @include input-btn-box(30px);
+        background-color: $color_white_c;
+
+
+        &.error {
+          color: $color_red_a;
+          border: 2px solid $color_red_a!important;
+        }
+
+      }
+    }
+  }
+
+
+  .full-loading {
+    background-color: $color_white_a;
+  }
+
+}
+
+.move-lesson-popup {
+  .select {
+
+    p {
+      background-color: $color_white_c;
+
+      color: $color_b;
+
+
+      i {
+
+        color: $color_a;
+
+      }
+    }
+
+    .list-items {
+
+      box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.06);
+
+    }
+
+  }
+}
+
+.note-popup {
+  .isDoneLesson {
+    color: $color_b;
+    i {
+      color: $color_green_a;
+    }
+  }
+}

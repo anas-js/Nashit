@@ -1,0 +1,294 @@
+.rate-item-PageItems {
+  display: inline-block;
+  .elements {
+    > .boxs {
+      display: flex;
+    }
+    .box-rate {
+      background-color: $color_white_a;
+      width: 300px;
+      height: 300px;
+      // border-radius: 100px;
+      // transform: rotateZ(45deg);
+      margin: 55px 0;
+      position: relative;
+      overflow: hidden;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      // margin-left: 10px;
+
+      > svg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        // transform: scale();
+        fill: $color_white_c;
+        z-index: 5;
+      }
+
+      p {
+        font-size: 50px;
+        font-weight: bold;
+        color: $color_green_a;
+        z-index: 2;
+        position: relative;
+        text-shadow: 3px 0px 0 #fff,-3px 0px 0 #fff,0px 3px 0 #fff,0px -3px 0 #fff;
+        // span:nth-of-type(2) {
+        //   position: absolute;
+        //   left: 50%;
+        //   top: 50%;
+        //   transform: translate(-50%,-50%);
+        //   color: #fff;
+        //   z-index: -1;
+
+        // }
+
+        // &::before {
+        //   content: '';
+        //   position: absolute;
+        //   width: 109%;
+        //   left: -1px;
+        //   height: 100%;
+        //   background-color: $color_white_a;
+        //   z-index: -1;
+        //   transform: rotate3d(3, 1, 0, 42deg);
+        // }
+        // text-shadow: 4px 0px $color_white_a, -4px 0px $color_white_a, 0px 4px $color_white_a, 0px -4px $color_white_a;
+        // 4px 0px #039363, -4px 0px #039363, 0px 4px #039363, 0px -4px #039363
+      }
+
+      .variable-ratio {
+        position: absolute;
+        text-align: center;
+        top: 9%;
+        left: 18%;
+        z-index: 5;
+        visibility: hidden;
+        opacity: 0;
+        font-style: italic;
+
+        &.active {
+          visibility: visible;
+        }
+
+
+        p {
+          font-size: 24px;
+          direction: ltr;
+        }
+        span {
+          font-size: 16px;
+          color: $color_green_a;
+          font-weight: bold;
+          margin-top: -14px;
+    display: block;
+    text-shadow: 3px 0px 0 #fff,-3px 0px 0 #fff,0px 3px 0 #fff,0px -3px 0 #fff;
+
+        }
+      }
+
+      .back {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+
+        .waves {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          width: 100%;
+          z-index: 1;
+
+
+
+          svg {
+            width: 200%;
+            position: absolute;
+            &:nth-of-type(1) {
+              left: 0;
+              animation: animeWavesToRigth 3s infinite linear;
+              top: -1px;
+            }
+            &:nth-of-type(2) {
+              right: 0;
+              animation: animeWavesToLeft 2.4s infinite linear;
+
+            }
+          }
+
+          @keyframes animeWavesToLeft {
+            100% {
+              transform: translateX(50%);
+            }
+          }
+
+          @keyframes animeWavesToRigth {
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+        }
+
+        .fill {
+          position: absolute;
+          background-color: $color_green_a;
+          height: calc(100% - 51.06px);
+          width: 100%;
+          bottom: 0;
+        }
+      }
+    }
+
+    .box-day {
+      width: 150px;
+      height: 150px;
+      vertical-align: bottom;
+      @extend .box-rate;
+
+
+
+      .text {
+        position: relative;
+        z-index: 2;
+        p {
+          font-size: 40px;
+          display: block;
+          text-align: center;
+          color: $color_a;
+          text-shadow: 3px 0px 0 #fff,-3px 0px 0 #fff,0px 3px 0 #fff,0px -3px 0 #fff;
+          
+
+          &.shadow {
+            text-shadow: 3px 0px 0 #fff,-3px 0px 0 #fff,0px 3px 0 #fff,0px -3px 0 #fff;
+            transition: 2s text-shadow;
+          }
+        }
+
+        span {
+          font-weight: bold;
+          // color:$color_b;
+          color: $color_b;
+          font-size: 13px;
+          z-index: 2;
+          display: block;
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      .back {
+        height: 0%;
+        .fill {
+          background-color: $color_a;
+          height: calc(100% - 25.53px);
+        }
+      }
+    }
+
+    .eval-text {
+      background-color: $color_white_a;
+      width: 240px;
+      border-radius: 25px;
+      padding: 15px;
+      overflow: hidden;
+      height: 80px;
+      margin: 0 auto;
+
+      > div {
+        margin-bottom: 20px;
+        .icon {
+          // display: inline-block;
+          width: 50px;
+          font-size: 19px;
+          height: 50px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 17px;
+          color: #fff;
+          // background-color: #000;
+
+          i {
+            display: block;
+          }
+        }
+
+        p {
+          display: inline-block;
+          // color: $color_green_a;
+
+          font-weight: bold;
+          margin-right: 10px;
+          font-size: 20px;
+        }
+      }
+
+      .level-1 {
+        .icon {
+          background-color: $color_green_a;
+        }
+
+        p {
+          color: $color_green_a;
+        }
+      }
+
+      .level-2 {
+        .icon {
+          background-color: #ffb84c;
+        }
+
+        p {
+          color: #ffb84c;
+        }
+      }
+
+      .level-3 {
+        .icon {
+          background-color: #ff774c;
+        }
+
+        p {
+          color: #ff774c;
+        }
+      }
+
+      .level-4 {
+        .icon {
+          background-color: #c90303;
+        }
+
+        p {
+          color: #c90303;
+        }
+      }
+
+      .level-5 {
+        .icon {
+          background-color: #850000;
+        }
+
+        p {
+          color: #850000;
+        }
+      }
+
+      .level-6 {
+        .icon {
+          background-color: #1B1C52;
+        }
+
+        p {
+          color: #1B1C52;
+        }
+      }
+    }
+  }
+  // }
+}

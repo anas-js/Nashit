@@ -1,0 +1,15 @@
+
+@media (max-width:366px) {
+  .start-page {
+    .main {
+      .content {
+        .btn_back {
+       right: initial;
+       left: 50%;
+       transform: translateX(-50%) !important;
+        }
+
+      }
+    }
+  }
+}

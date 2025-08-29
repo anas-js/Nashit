@@ -1,0 +1,86 @@
+.header-app {
+  margin-top: 30px;
+  position: relative;
+  // transform: translate(0);
+  z-index: 100;
+  
+
+
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .left {
+    // position: fixed;
+    position: absolute;
+    left: 0px;
+    width: max-content;
+    margin-left: 20px;
+
+     > * {
+      vertical-align: top;
+      display: inline-block;
+    }
+
+
+
+    .buttons {
+      margin-top: 15px;
+     
+      // float: left;
+      // margin: 13px 0;
+
+
+      a {
+        cursor: pointer;
+        display: inline-block;
+
+        &.login {
+          color: $color_b;
+          margin-left: 15px;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        &.register {
+          @extend .btn-circular;
+          transition: border-radius 0.3s;
+          &:hover {
+            border-radius: 14px;
+          }
+        }
+      }
+
+      .btn-show-list-moblie {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 25px;
+        color: $color_a;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+
+  // .nav-user {
+  //   position: fixed;
+  //   left: 10px;
+  //   top: -15px;
+
+
+
+  //   // &:hover {
+  //   //   transform: translateY(0%);
+  //   // }
+  // }
+}

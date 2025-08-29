@@ -1,0 +1,215 @@
+  
+  .nuxt-loading-indicator {
+    background-color: $color_a;
+  }
+  // Boxs
+  .label-div__inputText-button {
+    div {
+      background-color: $color_white_a;
+      button {
+        @extend .main-btn;
+        background-color: $color_b !important;
+      }
+
+      input {
+        background-color: $color_white_a;
+
+        &::placeholder {
+          color:  $color_dark_a;
+        }
+      }
+    }
+  }
+
+  .label-input {
+    label {
+      color: $color_a;
+    }
+    input {
+      background-color: $color_white_c !important;
+      &::placeholder {
+        color:  $color_dark_a;
+      }
+    }
+  }
+
+  .label-input-white {
+    input {
+      background-color: $color_white_a !important;
+      &::placeholder {
+        color:  $color_dark_a;
+      }
+    }
+  }
+
+  @mixin input-btn-box($sizeBtn) {
+    background-color: $color_white_a;
+
+    button {
+      color: $color_a;
+    }
+  }
+
+  .boxs-lessons {
+    > div {
+      background-color: $color_white_a;
+
+      .icon {
+        background-color: $color_a;
+        color: $color_white_a;
+        &.done {
+          background-color: $color_green_a;
+        }
+      }
+
+      .new-lesson-flag {
+        background-color: $color_white_a;
+        color: $color_b;
+        box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.06);
+      }
+
+      .late-lesson-flag {
+        background-color: $color_a;
+        color: $color_white_a;
+        box-shadow: 0 13px 30px 5px rgba($color: $color_black_a, $alpha: 0.06);
+      }
+
+      p {
+        color: $color_b;
+      }
+    }
+  }
+
+  .box-settings {
+    background-color: $color_white_a;
+
+    .ctr {
+      .rigth {
+        color: $color_b;
+      }
+    }
+
+    // > div {
+
+    // }
+    input {
+      background-color: $color_white_c !important;
+      &::placeholder {
+        color:  $color_dark_a;
+      }
+    }
+  }
+
+  // buttons
+
+  .btn-toggle {
+    background-color:$color_dark_a;
+
+    span {
+      background-color:  $color_white_a;
+    }
+
+    &.active {
+      background-color: $color_a_lite;
+
+      span {
+        background-color: $color_a;
+      }
+    }
+  }
+
+  .btn-circular {
+    background-color: $color_a;
+    color: $color_white_a;
+  }
+
+  .main-btn {
+    background-color: $color_a;
+    color: $color_white_a;
+  }
+
+  .second-btn {
+    color: $color_b;
+    border: 1px solid $color_b;
+  }
+
+  .main-btn-lite {
+    background-color: $color_a_lite;
+    color: $color_a;
+  }
+
+  .second-btn-lite {
+    color: $color_b;
+    background-color: initial;
+  }
+
+  .btn-square-smal {
+    background-color: $color_a_lite;
+    color: $color_a;
+  }
+
+  .btn-white {
+    color: $color_b;
+    > i {
+      color: $color_a;
+    }
+  }
+
+  // inputs
+
+  .input-main {
+    background-color: $color_white_a;
+    color: $color_b;
+    &::placeholder {
+      color:  $color_dark_a;
+    }
+  }
+
+  // components
+
+  .comment {
+    color: rgba($color: $color_b, $alpha: 0.5);
+  }
+
+  .btn-style {
+    background-color: $color_white_b;
+    color: #898989;
+    box-shadow: 2px 2px #2b293b, -2px 2px #2b293b;
+  }
+
+  .errMsg {
+    color: $color_red_a;
+  }
+
+  input.error {
+    color: $color_red_a;
+    border: 2px solid $color_red_a !important;
+  }
+
+  .scroll-bar {
+    &::-webkit-scrollbar-thumb {
+      background-color: $color_white_e;
+    }
+  }
+
+  @mixin scroll-bar-custom($size, $color) {
+    &::-webkit-scrollbar {
+      @if $size {
+        width: $size;
+      } @else {
+        width: 3px;
+      }
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      @if $color {
+        background-color: $color;
+      } @else {
+        background-color: $color_white_d;
+      }
+      border-radius: 25px;
+    }
+  }

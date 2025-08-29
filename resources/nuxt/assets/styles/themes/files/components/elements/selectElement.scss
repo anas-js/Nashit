@@ -1,0 +1,27 @@
+.select-element {
+  .elements {
+
+
+    li {
+
+      color: $color_b;
+      .box-select {
+
+        border: 2px solid $color_a;
+
+
+
+      }
+
+      &.select {
+        .box-select {
+        background-color: rgba($color: $color_a, $alpha: 0.34);
+        border: none;
+        color: $color_a;
+        }
+
+      }
+    }
+
+  }
+}

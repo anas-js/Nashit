@@ -1,0 +1,44 @@
+@media (max-width:530px) {
+  .all-page-course {
+    .boxs {
+      > div:not(.no-note) {
+        flex-wrap: wrap;
+
+        .left {
+          margin-top: 15px;
+          &.box-note {
+            justify-content: start;
+
+            p {
+              width: calc(100% - 30px);
+            }
+
+          }
+        }
+    }
+
+    }
+  }
+
+}
+
+@media (max-width:445px) {
+  .all-note-popup {
+    &.done {
+      .box {
+
+        .quilljs  #quill-container {
+          max-height: calc(100vh - 275px);
+        }
+
+        .ql-editor {
+          min-height: calc(100vh - 275px);
+        }
+
+
+
+
+    }
+    }
+
+}}

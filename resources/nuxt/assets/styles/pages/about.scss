@@ -1,0 +1,41 @@
+.about-page-global {
+  .content-box {
+    background-color: $color_white_a;
+    border-radius: 20px;
+    padding: 15px;
+    color: $color_b;
+
+    img {
+      margin: 10px auto;
+      display: block;
+
+    }
+
+    .logo {
+      margin: 30px auto;
+    }
+
+    .share {
+      ul {
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+          margin-left: 5px;
+          a {
+            color: $color_a;
+            font-size: 25px;
+            font-weight: normal;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    a {
+      color: $color_a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
